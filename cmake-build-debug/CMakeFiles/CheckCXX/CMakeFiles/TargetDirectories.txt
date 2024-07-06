@@ -1,0 +1,2 @@
+/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/CMakeFiles/CheckCXX/CMakeFiles/edit_cache.dir
+/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/CMakeFiles/CheckCXX/CMakeFiles/rebuild_cache.dir

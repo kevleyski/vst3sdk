@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "public.sdk/samples/vst-hosting/editorhost",
+		"source" : "public.sdk/samples/vst-hosting/editorhost"
+	}
+}

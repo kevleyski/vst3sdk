@@ -1,0 +1,702 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VST3/Debug/hostchecker.vst3/Contents/MacOS/hostchecker"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"smtg_add_vst3plugin_with_pkgname",
+			"smtg_add_vst3plugin",
+			"target_link_libraries",
+			"smtg_target_make_plugin_package",
+			"smtg_target_setup_options",
+			"smtg_target_setup_as_vst3_example",
+			"smtg_enable_vstgui_support",
+			"add_custom_command",
+			"smtg_target_run_vst_validator",
+			"smtg_target_create_module_info_file",
+			"add_compile_options",
+			"smtg_setup_platform_toolset",
+			"include_directories",
+			"target_include_directories",
+			"smtg_target_configure_version_file",
+			"target_compile_features",
+			"target_sources",
+			"smtg_target_add_library_main",
+			"smtg_target_add_plugin_resource",
+			"smtg_target_add_plugin_resources"
+		],
+		"files" : 
+		[
+			"cmake/modules/SMTG_AddVST3Library.cmake",
+			"public.sdk/samples/vst/hostchecker/CMakeLists.txt",
+			"cmake/modules/SMTG_AddSMTGLibrary.cmake",
+			"public.sdk/samples/vst/CMakeLists.txt",
+			"cmake/modules/SMTG_VstGuiSupport.cmake",
+			"CMakeLists.txt",
+			"vstgui4/vstgui/uidescription/CMakeLists.txt",
+			"vstgui4/vstgui/lib/CMakeLists.txt",
+			"public.sdk/CMakeLists.txt",
+			"cmake/modules/SMTG_PlatformToolset.cmake",
+			"cmake/modules/SMTG_Bundle.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 317,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 54,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 42,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 93,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 181,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 378,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 214,
+				"parent" : 13
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 138,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 45,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 31,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 45,
+				"parent" : 10
+			},
+			{
+				"command" : 15,
+				"file" : 3,
+				"line" : 23,
+				"parent" : 8
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 158,
+				"parent" : 28
+			},
+			{
+				"command" : 16,
+				"file" : 3,
+				"line" : 49,
+				"parent" : 7
+			},
+			{
+				"command" : 18,
+				"file" : 2,
+				"line" : 274,
+				"parent" : 4
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 172,
+				"parent" : 31
+			},
+			{
+				"command" : 20,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 33
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 497,
+				"parent" : 34
+			},
+			{
+				"command" : 19,
+				"file" : 2,
+				"line" : 564,
+				"parent" : 33
+			},
+			{
+				"command" : 17,
+				"file" : 2,
+				"line" : 497,
+				"parent" : 36
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -stdlib=libc++ -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mmacosx-version-min=10.13 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DDEVELOPMENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-stdlib=libc++"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VSTGUI_LIVE_EDITING"
+				},
+				{
+					"define" : "hostchecker_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/hostchecker"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/.."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/.."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					30
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				11,
+				13,
+				15,
+				18,
+				20,
+				22,
+				25
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "vstgui_support::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "vstgui::@ea51bebdfaaa53c5cfac"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "vstgui_uidescription::@ff7452addf533647b36b"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "pluginterfaces::@7d86dc84da755e0ff8d4"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "base::@4506b02e7a4fef989908"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "sdk_common::@4b9b365cf687299b527b"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "sdk::@4b9b365cf687299b527b"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "validator::@6d6b0cbefb3a75e3f8d0"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "moduleinfotool::@a3f35bde934588e5e82d"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "PlugInExamples"
+	},
+	"id" : "hostchecker::@f69ba927d48ec6a3aecd",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lc++",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-framework CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../../lib/Debug/libvstgui_support.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "../../../../lib/Debug/libsdk.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "../../../../lib/Debug/libvstgui_uidescription.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "../../../../lib/Debug/libvstgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework QuartzCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libexpat.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "../../../../lib/Debug/libsdk_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "../../../../lib/Debug/libbase.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "../../../../lib/Debug/libpluginterfaces.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lc++",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "hostchecker",
+	"nameOnDisk" : "hostchecker.vst3/Contents/MacOS/hostchecker",
+	"paths" : 
+	{
+		"build" : "public.sdk/samples/vst/hostchecker",
+		"source" : "public.sdk/samples/vst/hostchecker"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				12,
+				14,
+				16,
+				17,
+				19,
+				21,
+				23,
+				24
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				11,
+				13,
+				15,
+				18,
+				20,
+				22,
+				25
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				26,
+				27
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/resource/hostchecker.uidesc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/cids.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/editorsizecontroller.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/editorsizecontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlistcheck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlistcheck.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlogdatabrowsersource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlogger.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/eventlogger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/factory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheck.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheckercontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/hostcheckerprocessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/logevents.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/parameterchangescheck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/parameterchangescheck.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/processcontextcheck.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/samples/vst/hostchecker/source/processsetupcheck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/processsetupcheck.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "public.sdk/samples/vst/hostchecker/source/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "public.sdk/source/main/macmain.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 35,
+			"path" : "public.sdk/samples/vst/hostchecker/resource/bypass.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 37,
+			"path" : "public.sdk/samples/vst/hostchecker/resource/knob.png",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

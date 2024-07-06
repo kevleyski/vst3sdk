@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "VSTGUI.build/vstgui/lib",
+		"source" : "vstgui4/vstgui/lib"
+	}
+}

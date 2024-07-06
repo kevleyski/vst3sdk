@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "public.sdk/samples/vst-utilities/moduleinfotool",
+		"source" : "public.sdk/samples/vst-utilities/moduleinfotool"
+	}
+}

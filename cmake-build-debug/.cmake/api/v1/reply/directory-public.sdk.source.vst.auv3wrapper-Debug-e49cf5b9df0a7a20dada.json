@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "public.sdk/source/vst/auv3wrapper",
+		"source" : "public.sdk/source/vst/auv3wrapper"
+	}
+}

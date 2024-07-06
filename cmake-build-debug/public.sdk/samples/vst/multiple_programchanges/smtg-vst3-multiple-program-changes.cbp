@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="smtg-vst3-multiple-program-changes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\public.sdk\;CMake Files\public.sdk\samples\;CMake Files\public.sdk\samples\vst\;CMake Files\public.sdk\samples\vst\adelay\;CMake Files\public.sdk\samples\vst\again\;CMake Files\public.sdk\samples\vst\again_aax\;CMake Files\public.sdk\samples\vst\again_sampleaccurate\;CMake Files\public.sdk\samples\vst\channelcontext\;CMake Files\public.sdk\samples\vst\dataexchange\;CMake Files\public.sdk\samples\vst\hostchecker\;CMake Files\public.sdk\samples\vst\legacymidiccout\;CMake Files\public.sdk\samples\vst\mda-vst3\;CMake Files\public.sdk\samples\vst\multiple_programchanges\;CMake Files\public.sdk\samples\vst\note_expression_synth\;CMake Files\public.sdk\samples\vst\note_expression_text\;CMake Files\public.sdk\samples\vst\panner\;CMake Files\public.sdk\samples\vst\pitchnames\;CMake Files\public.sdk\samples\vst\prefetchablesupport\;CMake Files\public.sdk\samples\vst\programchange\;CMake Files\public.sdk\samples\vst\remap_paramid\;CMake Files\public.sdk\samples\vst\syncdelay\;CMake Files\public.sdk\samples\vst\utf16name\;CMake Files\public.sdk\samples\vst\InterAppAudio\;CMake Files\public.sdk\samples\vst\again_auv3\;CMake Files\public.sdk\samples\vst\hostchecker_aax\;CMake Files\public.sdk\samples\vst\note_expression_synth_auv3\;CMake Files\public.sdk\samples\vst-hosting\;CMake Files\public.sdk\samples\vst-hosting\audiohost\;CMake Files\public.sdk\samples\vst-hosting\editorhost\;CMake Files\public.sdk\samples\vst-hosting\editorhost\resource\;CMake Files\public.sdk\samples\vst-hosting\inspectorapp\;CMake Files\public.sdk\samples\vst-hosting\inspectorapp\resource\;CMake Files\public.sdk\samples\vst-hosting\validator\;CMake Files\public.sdk\samples\vst-utilities\;CMake Files\public.sdk\samples\vst-utilities\moduleinfotool\;CMake Files\public.sdk\source\;CMake Files\public.sdk\source\vst\;CMake Files\public.sdk\source\vst\interappaudio\;CMake Files\public.sdk\source\vst\auv3wrapper\;CMake Files\cmake\;CMake Files\cmake\templates\;CMake Files\cmake\modules\;CMake Files\base\;CMake Files\pluginterfaces\;CMake Files\vstgui4\;CMake Files\vstgui4\vstgui\;CMake Files\vstgui4\vstgui\cmake\;CMake Files\vstgui4\vstgui\cmake\modules\;CMake Files\vstgui4\vstgui\lib\;CMake Files\vstgui4\vstgui\uidescription\;CMake Files\vstgui4\vstgui\standalone\;CMake Files\vstgui4\vstgui\standalone\cmake\;CMake Files\vstgui4\vstgui\standalone\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multiple-program-changes">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/VST3/Debug/multiple-program-changes.vst3/Contents/MacOS/multiple-program-changes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/.."/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/.."/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 multiple-program-changes"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multiple-program-changes/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/VST3/Debug/multiple-program-changes.vst3/Contents/MacOS/multiple-program-changes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/.."/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/.."/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 multiple-program-changes/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake-build-debug/public.sdk/samples/vst/multiple_programchanges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.cpp">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plug.h">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcids.h">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.cpp">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugcontroller.h">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugentry.cpp">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/plugparamids.h">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/source/version.h">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp">
+			<Option target="multiple-program-changes"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/adelay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\adelay\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_aax/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again_aax\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again_sampleaccurate\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/channelcontext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\channelcontext\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\dataexchange\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\hostchecker\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\legacymidiccout\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/mda-vst3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\mda-vst3\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/multiple_programchanges/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\multiple_programchanges\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/note_expression_synth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_synth\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/note_expression_text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_text\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/panner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\panner\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\pitchnames\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/prefetchablesupport/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\prefetchablesupport\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/programchange/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\programchange\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\remap_paramid\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/syncdelay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\syncdelay\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\utf16name\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/InterAppAudio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\InterAppAudio\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_auv3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\again_auv3\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker_aax/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\hostchecker_aax\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/note_expression_synth_auv3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst\note_expression_synth_auv3\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/audiohost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\audiohost\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\editorhost\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/editorhost/resource/Info.plist">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\editorhost\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\inspectorapp\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/resource/Info.plist">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\inspectorapp\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/validator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-hosting\validator\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-utilities/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-utilities\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\samples\vst-utilities\moduleinfotool\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/interappaudio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\source\vst\interappaudio\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/auv3wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public.sdk\source\vst\auv3wrapper\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/templates/projectversion.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AAXSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddCommonOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddSubDirectories.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddVST3AuV3.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddVST3Library.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_AddVST3Options.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_Bundle.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_CodeSign.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_CoreAudioSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_CustomModuleTarget.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_DetectPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_ExportedSymbols.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_FindJack.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_Global.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_PlatformIOS.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_Platform_Windows.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_PrefixHeader.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_SetDebugExecutable.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_SetupVST3LibraryDefaultPath.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_UniversalBinary.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_VST3_SDK.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/cmake/modules/SMTG_VstGuiSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\base\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pluginterfaces\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/cmake/modules/vstgui_init.cmake">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\lib\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\uidescription\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/cmake/modules/vstgui_add_executable.cmake">
+			<Option virtualFolder="CMake Files\vstgui4\vstgui\standalone\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

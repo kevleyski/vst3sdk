@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "public.sdk/samples/vst/mda-vst3",
+		"source" : "public.sdk/samples/vst/mda-vst3"
+	}
+}
