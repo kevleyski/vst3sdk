@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vstgui/tests/base64codecspeed",
+		"source" : "vstgui/tests/base64codecspeed"
+	}
+}

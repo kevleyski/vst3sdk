@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vstgui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vstgui\;CMake Files\vstgui\cmake\;CMake Files\vstgui\cmake\modules\;CMake Files\vstgui\lib\;CMake Files\vstgui\uidescription\;CMake Files\vstgui\standalone\;CMake Files\vstgui\standalone\cmake\;CMake Files\vstgui\standalone\cmake\modules\;CMake Files\vstgui\standalone\examples\;CMake Files\vstgui\standalone\examples\mandelbrot\;CMake Files\vstgui\standalone\examples\mandelbrot\resource\;CMake Files\vstgui\standalone\examples\minesweeper\;CMake Files\vstgui\standalone\examples\minesweeper\resource\;CMake Files\vstgui\standalone\examples\simple_standalone\;CMake Files\vstgui\standalone\examples\simple_standalone\resource\;CMake Files\vstgui\standalone\examples\standalone\;CMake Files\vstgui\standalone\examples\standalone\resource\;CMake Files\vstgui\tests\;CMake Files\vstgui\tests\gfxtest\;CMake Files\vstgui\tests\gfxtest\resource\;CMake Files\vstgui\tests\base64codecspeed\;CMake Files\vstgui\tests\unittest\;CMake Files\vstgui\tests\uidescriptioneditorapp\;CMake Files\vstgui\tools\;CMake Files\vstgui\tools\imagestitcher\;CMake Files\vstgui\tools\imagestitcher\resource\;CMake Files\vstgui\tools\uidesccompressor\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 vstgui"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 vstgui/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui_uidescription">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui_uidescription.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_USE_SYSTEM_EXPAT"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 vstgui_uidescription"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui_uidescription/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui_uidescription.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_USE_SYSTEM_EXPAT"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 vstgui_uidescription/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/uidescription/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui_standalone">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui_standalone.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 vstgui_standalone"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vstgui_standalone/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/libs/libvstgui_standalone.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 vstgui_standalone/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mandelbrot">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/mandelbrot.app/Contents/MacOS/mandelbrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.mandelbrot&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 mandelbrot"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mandelbrot/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/mandelbrot.app/Contents/MacOS/mandelbrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.mandelbrot&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 mandelbrot/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/mandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Minesweeper">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/Minesweeper.app/Contents/MacOS/Minesweeper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.minesweeper&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 Minesweeper"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Minesweeper/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/Minesweeper.app/Contents/MacOS/Minesweeper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.minesweeper&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 Minesweeper/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/minesweeper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_standalone">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/simple_standalone.app/Contents/MacOS/simple_standalone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.simplestandalone&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 simple_standalone"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_standalone/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/simple_standalone.app/Contents/MacOS/simple_standalone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.simplestandalone&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 simple_standalone/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/simple_standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="standalone">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/standalone.app/Contents/MacOS/standalone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.standalone&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 standalone"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="standalone/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/standalone.app/Contents/MacOS/standalone" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.examples.standalone&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/../../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 standalone/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/standalone/examples/standalone/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GFXTest">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/GFXTest.app/Contents/MacOS/GFXTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.tests.gfxtest&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 GFXTest"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GFXTest/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/GFXTest.app/Contents/MacOS/GFXTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;vstgui.tests.gfxtest&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 GFXTest/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/gfxtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base64codecspeed">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/base64codecspeed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/base64codecspeed/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 base64codecspeed"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base64codecspeed/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/base64codecspeed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/base64codecspeed/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 base64codecspeed/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/base64codecspeed/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittests">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DENABLE_UNIT_TESTS=1"/>
+					<Add option="-DVSTGUI_LIVE_EDITING=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 unittests"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittests/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/unittests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DENABLE_UNIT_TESTS=1"/>
+					<Add option="-DVSTGUI_LIVE_EDITING=1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 unittests/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tests/unittest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageStitcher">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/ImageStitcher.app/Contents/MacOS/ImageStitcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;com.steinberg.vstgui.imagestitcher&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 ImageStitcher"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageStitcher/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/ImageStitcher.app/Contents/MacOS/ImageStitcher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add option="-DVSTGUI_STANDALONE_APP_URI=&quot;com.steinberg.vstgui.imagestitcher&quot;"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 ImageStitcher/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/imagestitcher/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uidesccompressor">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/uidesccompressor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/uidesccompressor/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 uidesccompressor"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uidesccompressor/fast">
+				<Option output="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/uidesccompressor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Debug/&gt;$&lt;$&lt;CONFIG:Release&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/Release/&gt;$&lt;$&lt;CONFIG:ReleaseLTO&gt;:/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/ReleaseLTO/&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVSTGUI_LIVE_EDITING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DVSTGUI_ENABLE_DEPRECATED_METHODS=1"/>
+					<Add option="-DVSTGUI_ENABLE_XML_PARSER=1"/>
+					<Add option="-DVSTGUI_OPENGL_SUPPORT=1"/>
+					<Add directory="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/uidesccompressor/../../.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 uidesccompressor/fast"/>
+					<CompileFile command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j16 -f &quot;/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/cmake-build-debug/vstgui/tools/uidesccompressor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/datepicker.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/datepicker.mm">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/evbutton.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/evbutton_macos.mm">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/externalview_metal.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/contrib/externalview_nsview.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/doxygen">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/algorithm.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animations.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animations.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animator.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animator.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/itimingfunction.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/timingfunctions.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/timingfunctions.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cbitmap.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cbitmap.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cbitmapfilter.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cbitmapfilter.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cbuttonstate.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cclipboard.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cclipboard.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ccolor.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ccolor.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdatabrowser.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdatabrowser.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdrawcontext.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdrawcontext.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdrawdefs.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdrawmethods.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdrawmethods.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdropsource.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cdropsource.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cexternalview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cexternalview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cfileselector.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cfileselector.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cfont.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cfont.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cframe.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cframe.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgradient.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgradient.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgradientview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgradientview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgraphicspath.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgraphicspath.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cgraphicstransform.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cinvalidrectlist.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/clayeredviewcontainer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/clayeredviewcontainer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/clinestyle.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/clinestyle.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/coffscreencontext.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/coffscreencontext.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cautoanimation.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cautoanimation.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cbuttons.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cbuttons.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccolorchooser.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccolorchooser.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cfontchooser.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cfontchooser.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cknob.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cknob.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/clistcontrol.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/clistcontrol.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebitmap.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebitmap.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebutton.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cmoviebutton.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/coptionmenu.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/coptionmenu.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cparamdisplay.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cparamdisplay.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cscrollbar.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cscrollbar.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csearchtextedit.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csearchtextedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csegmentbutton.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csegmentbutton.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cslider.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cslider.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cspecialdigit.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cspecialdigit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csplashscreen.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/csplashscreen.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cstringlist.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cstringlist.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cswitch.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cswitch.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ctextedit.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ctextedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ctextlabel.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ctextlabel.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cvumeter.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cvumeter.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cxypad.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/cxypad.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/icommandmenuitemtarget.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/icontrollistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ioptionmenulistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/itexteditlistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/itextlabellistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/copenglview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/copenglview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cpoint.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cpoint.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/crect.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/crect.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cresourcedescription.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/crowcolumnview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/crowcolumnview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cscrollview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cscrollview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cshadowviewcontainer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cshadowviewcontainer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/csplitview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/csplitview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cstring.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cstring.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ctabview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ctabview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ctooltipsupport.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ctooltipsupport.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cview.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cviewcontainer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cviewcontainer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cvstguitimer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/cvstguitimer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/dispatchlist.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/dragging.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/events.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/events.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/finally.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/genericstringlistdatabrowsersource.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/genericstringlistdatabrowsersource.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/idatabrowserdelegate.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/idatapackage.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/idependency.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/iexternalview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/ifocusdrawing.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/iscalefactorchangedlistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/itouchevent.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/iviewlistener.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/malloc.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/optional.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/pixelbuffer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/pixelbuffer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/fileresourceinputstream.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/fileresourceinputstream.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/genericoptionmenu.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/genericoptionmenu.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/generictextedit.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/generictextedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/gradientbase.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/common/stb_textedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformbitmap.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformfileselector.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformfont.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformframe.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformframecallback.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformgradient.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformgraphicsdevice.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformgraphicspath.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformopenglview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformoptionmenu.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformresourceinputstream.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformstring.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformtextedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformtimer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/iplatformviewlayer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/linux">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/caviewlayer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/caviewlayer.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cfontmac.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cfontmac.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cgbitmap.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cgbitmap.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/autoreleasepool.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/autoreleasepool.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoaopenglview.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoaopenglview.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewdraggingsession.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewdraggingsession.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewframe.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewframe.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewoptionmenu.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewoptionmenu.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/objcclassbuilder.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/coregraphicsdevicecontext.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/coregraphicsdevicecontext.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/ios">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macclipboard.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macclipboard.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfileselector.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfileselector.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macstring.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/macstring.mm">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/mactimer.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/mactimer.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platform_macos.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platform_win32.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platform_x11.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platformfactory.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platformfactory.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/platformfwd.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/std_unorderedmap.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/win32">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguibase.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguidebug.cpp">
+			<Option target="vstgui"/>
+			<Option target="base64codecspeed"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguidebug.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguifwd.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguiinit.cpp">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstguiinit.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/vstkeycode.h">
+			<Option target="vstgui"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/cmake">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/cmake/resources/PkgInfo">
+			<Option target="mandelbrot"/>
+			<Option target="Minesweeper"/>
+			<Option target="simple_standalone"/>
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/resource/Window.uidesc">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrot.h">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrotapp.cpp">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrotview.cpp">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrotview.h">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrotwindow.cpp">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/mandelbrotwindow.h">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/modelbinding.h">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/touchbarsupport.h">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/source/touchbarsupport.mm">
+			<Option target="mandelbrot"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/resource/Minesweeper.icns">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/resource/Window.uidesc">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/resource/font/LCD14.otf">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/resource/font/NotoEmoji-Regular.ttf">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/commands.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscorelist.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscorelist.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscores.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscores.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscoreviewcontroller.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/highscoreviewcontroller.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/keepchildviewscentered.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/minefieldviewcontroller.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/minefieldviewcontroller.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/model.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/model.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/myapp.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/windowcontroller.cpp">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/source/windowcontroller.h">
+			<Option target="Minesweeper"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/resource/Window.uidesc">
+			<Option target="simple_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/source/myapp.cpp">
+			<Option target="simple_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/about.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/alertbox.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/direct3dwindow.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/font/EffectsEighty.ttf">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/metalwindow.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/resources.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/test.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/testpopup.uidesc">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/AlertBoxDesign.cpp">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/AlertBoxDesign.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/metalshader.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/metaltypes.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/metalwindow.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/metalwindow.mm">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testabout.cpp">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testabout.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testappdelegate.cpp">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testappdelegate.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testmodel.cpp">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/source/testmodel.h">
+			<Option target="standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/appinit.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/doc.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/fwd.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/appdelegate.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/async.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/menubuilder.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/preferences.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/uidesc/customization.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/uidesc/modelbinding.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/value.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/valuelistener.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/windowcontroller.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/windowlistener.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/ialertbox.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iappdelegate.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iapplication.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iasync.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/icommand.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/icommondirectories.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/imenubuilder.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/interface.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/ipreference.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/ishareduiresources.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iuidescwindow.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/ivalue.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/ivaluelistener.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iwindow.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iwindowcontroller.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iwindowlistener.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/application.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/application.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/genericalertbox.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/genericalertbox.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/value.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/gdk">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/iplatformwindow.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/VSTGUICommand.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/VSTGUICommand.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macapplication.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macasync.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macasync.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/maccommondirectories.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/maccommondirectories.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macpreference.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macpreference.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macutilities.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macwindow.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macwindow.mm">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/win32">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/shareduiresources.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/shareduiresources.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/uidescriptionwindowcontroller.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/window.cpp">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/window.h">
+			<Option target="vstgui_standalone"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/base64codecspeed/main.cpp">
+			<Option target="base64codecspeed"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/resource/DrawDeviceTests.uidesc">
+			<Option target="GFXTest"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/resource/Window.uidesc">
+			<Option target="GFXTest"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/source/app.cpp">
+			<Option target="GFXTest"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/source/drawdevicetests.cpp">
+			<Option target="GFXTest"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/source/drawdevicetests.h">
+			<Option target="GFXTest"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/algorithm_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/animation/animations_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/animation/animator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/animation/timingfunction_tests.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cbitmap_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cbuttonstate_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cclipboard_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/ccolor_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cframe_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cinvalidrectlist_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/clinestyle_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/ccheckbox_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/ccontrol_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/ckickbutton_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/clistcontrol_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/conoffbutton_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/coptionmenu_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/csegmentbutton_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/ctextbutton_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/controls/cxypad_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cpoint_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/crect_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/csplitview_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cview_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/cviewcontainer_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/event_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/eventhelpers.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/idependency_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/pixelbufferconverter_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/platform_helper.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/platform_helper_mac.mm">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/utf8string_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/lib/utf8stringview_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/base64codec.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/cstream_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/delegationcontroller_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiattributes_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uidescription_json_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uidescription_test_helper.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uidescription_xml_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uidescriptionadapter.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/canimationsplashscreencreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/canimknobcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ccheckboxcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ccontrolcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cgradientviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/chorizontalswitchcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ckickbuttoncreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cknobcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/clayeredviewcontainercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cmoviebitmapcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cmoviebuttoncreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cmultilinetextlabelcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/conoffbuttoncreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/coptionmenucreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cparamdisplaycreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/crockerswitchcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/crowcolumnviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cscrollviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/csearchtexteditcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/csegmentbuttoncreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cshadowviewcontainercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cslidercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/csplitviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ctextbuttoncreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ctexteditcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/ctextlabelcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cverticalswitchcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cviewcontainercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cvumetercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/cxypadcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/helpers.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/stringlistcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/uiviewcreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewcreator/uiviewswitchcontainercreator_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewfactory_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/uiviewswitchcontainer_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/uidescription/xmlparser_test.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/unittestmain.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/unittests.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/unittests.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/Readme.md">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/resource/StartupWindow.uidesc">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/resource/Window.uidesc">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/app.cpp">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/document.cpp">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/document.h">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/documentcontroller.cpp">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/documentcontroller.h">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/imageframesview.cpp">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/imageframesview.h">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/startupcontroller.cpp">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/source/startupcontroller.h">
+			<Option target="ImageStitcher"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/uidesccompressor/main.cpp">
+			<Option target="uidesccompressor"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/base64codec.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/cstream.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/cstream.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/delegationcontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/locale.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/parsecolor.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/scalefactorutils.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uidesclist.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uidesclist.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uijsonpersistence.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uijsonpersistence.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uiviewcreatorattributes.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uixmlpersistence.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uixmlpersistence.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/doc.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/doc.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/iaction.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/igridprocessor.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiactions.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiactions.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiattributescontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiattributescontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uibasedatasource.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uibitmapscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uibitmapscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolor.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolor.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorchoosercontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorchoosercontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorslider.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorslider.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicrosslines.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uicrosslines.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uidescriptioneditor.uidesc">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uidialogcontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uidialogcontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditcontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditcontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditmenucontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditmenucontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditview.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uieditview.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uifocussettingscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uifocussettingscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uifontscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uifontscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uigradientscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uigradientscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uigrid.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uigridcontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uigridcontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uioverlayview.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uioverlayview.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiselection.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiselection.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitagscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitagscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitemplatecontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitemplatecontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitemplatesettingscontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uitemplatesettingscontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiundomanager.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiundomanager.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiviewcreatecontroller.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/editing/uiviewcreatecontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/icontentprovider.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/icontroller.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/iuidescription.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/iviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/iviewfactory.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiattributes.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiattributes.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uicontentprovider.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uicontentprovider.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescription.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescription.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescriptionfwd.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescriptionlistener.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewfactory.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewfactory.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewswitchcontainer.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uiviewswitchcontainer.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/animationsplashscreencreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/animationsplashscreencreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/animknobcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/animknobcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/autoanimationcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/autoanimationcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/checkboxcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/checkboxcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/controlcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/controlcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/gradientviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/gradientviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/kickbuttoncreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/kickbuttoncreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/knobcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/knobcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/layeredviewcontainercreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/layeredviewcontainercreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/moviebitmapcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/moviebitmapcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/moviebuttoncreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/moviebuttoncreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/multibitmapcontrolcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/multibitmapcontrolcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/multilinetextlabelcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/multilinetextlabelcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/onoffbuttoncreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/onoffbuttoncreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/optionmenucreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/optionmenucreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/paramdisplaycreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/paramdisplaycreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/rockerswitchcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/rockerswitchcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/rowcolumnviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/rowcolumnviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/scrollviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/scrollviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/searchtexteditcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/searchtexteditcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/segmentbuttoncreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/segmentbuttoncreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/shadowviewcontainercreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/shadowviewcontainercreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/sliderviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/sliderviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/splitviewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/splitviewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/stringlistcontrolcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/stringlistcontrolcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/switchcreators.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/switchcreators.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/textbuttoncreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/textbuttoncreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/texteditcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/texteditcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/textlabelcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/textlabelcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/uiviewswitchcontainercreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/uiviewswitchcontainercreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/viewcontainercreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/viewcontainercreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/viewcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/viewcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/vumetercreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/vumetercreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/xypadcreator.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/xypadcreator.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/xmlparser.cpp">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/xmlparser.h">
+			<Option target="vstgui_uidescription"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/vstgui_mac.mm">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/vstgui_uidescription.cpp">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/vstgui_uidescription.h">
+			<Option target="unittests"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/cmake/modules/vstgui_init.cmake">
+			<Option virtualFolder="CMake Files\vstgui\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\lib\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\uidescription\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/cmake/modules/vstgui_add_executable.cmake">
+			<Option virtualFolder="CMake Files\vstgui\standalone\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\mandelbrot\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/mandelbrot/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\mandelbrot\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\minesweeper\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/minesweeper/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\minesweeper\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\simple_standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/simple_standalone/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\simple_standalone\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\standalone\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/examples/standalone/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\standalone\examples\standalone\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tests\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tests\gfxtest\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/gfxtest/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\tests\gfxtest\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/base64codecspeed/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tests\base64codecspeed\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tests\unittest\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tests/uidescriptioneditorapp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tests\uidescriptioneditorapp\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tools\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tools\imagestitcher\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/imagestitcher/resource/Info.plist">
+			<Option virtualFolder="CMake Files\vstgui\tools\imagestitcher\resource\"/>
+		</Unit>
+		<Unit filename="/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/tools/uidesccompressor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vstgui\tools\uidesccompressor\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
