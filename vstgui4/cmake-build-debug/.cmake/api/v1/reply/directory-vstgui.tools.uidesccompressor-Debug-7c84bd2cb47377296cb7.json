@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vstgui/tools/uidesccompressor",
+		"source" : "vstgui/tools/uidesccompressor"
+	}
+}

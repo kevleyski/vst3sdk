@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=10.14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/base64codecspeed.dir/main.cpp.o CMakeFiles/base64codecspeed.dir/__/__/lib/vstguidebug.cpp.o -o ../../../Debug/base64codecspeed 
