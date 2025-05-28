@@ -1,4 +1,3 @@
-
 cmake_minimum_required (VERSION 3.25.0)
 
 # Specify the minimum version of the target platform
@@ -43,6 +42,9 @@ if(SMTG_ENABLE_VSTGUI_SUPPORT)
 endif()
 
 include_directories(${ROOT} ${SDK_ROOT})
+
+# Disable the unused-but-set-variable warning as an error
+add_compile_options(-Wno-unused-but-set-variable)
 
 #-------------------------------------------------------------------------------
 # From Here this is optional...
