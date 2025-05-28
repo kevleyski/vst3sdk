@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 791C2189C5FB4B2A9C1F623F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				64A6EF4CCE7E00C951373EC3 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05B9A330AE2641DDBED67651 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				380C07B0546E740D4BA95FA1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				4473311DF5B248E3BDCCBEB3 /* PBXTargetDependency */,
+				BD841DCDA4B349E5B96FE45C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12F96C4E5B694E4283E804CC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 823721A5148442529EB191F3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */; };
+		2FD8AB7C80A74058AC61DE13 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 5E2DF4EA85664FBBAA33906D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		5AB0FC872F7F472783D6CD06 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXBuildFile; fileRef = 4B132C4E2BB84BD8A9D598CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */; };
+		77637725E51D4429BA8A4868 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = 3799ABA6CA2047C2ACF64DFB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */; };
+		7B86A6B281CA4131BAC012BB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXBuildFile; fileRef = 836382D37B944C50A67E2C06 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */; };
+		A534DA6713C14F73B6E99762 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXBuildFile; fileRef = 5D5F64C55FB24E05BE4AF509 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */; };
+		E313341968DD4F479B44A00B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXBuildFile; fileRef = 4E44ADB8CC9F4699B1A364CE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */; };
+		FC41A0E88A5143518F258E11 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXBuildFile; fileRef = 74263FC8DD614DBF978932A4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		56EE24A15F8647BEBCBCAE76 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E405AEFFDBB1431DA2FD28D6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1286ABEB2A4AA4B3635058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF1DF4705DF492A9CA6D08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 573130B0F56696CBEB12F6D0;
+			remoteInfo = "pitch-names";
+		};
+		EAAA4517960D434288B3A35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF1DF4705DF492A9CA6D08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		FCEA6ED86318463BAB3B94C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF1DF4705DF492A9CA6D08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C71863FA77F41CE87BDE996 /* pitch-names */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "pitch-names.bundle/Contents/MacOS/pitch-names"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3799ABA6CA2047C2ACF64DFB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		4B132C4E2BB84BD8A9D598CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnames.cpp; path = source/pitchnames.cpp; sourceTree = SOURCE_ROOT; };
+		4E44ADB8CC9F4699B1A364CE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		5D5F64C55FB24E05BE4AF509 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnames.h; path = source/pitchnames.h; sourceTree = SOURCE_ROOT; };
+		5E2DF4EA85664FBBAA33906D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		74263FC8DD614DBF978932A4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pitchnamesdatabrowsersource.cpp; path = source/pitchnamesdatabrowsersource.cpp; sourceTree = SOURCE_ROOT; };
+		823721A5148442529EB191F3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		836382D37B944C50A67E2C06 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pitchnamesdatabrowsersource.h; path = source/pitchnamesdatabrowsersource.h; sourceTree = SOURCE_ROOT; };
+		DA26E4E0B53248A0AE3C32FD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74FBBB3AED141AD915BFDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DACAB2EB63B4FD5814583C6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5F64C55FB24E05BE4AF509 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.h */,
+				836382D37B944C50A67E2C06 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.h */,
+				4E44ADB8CC9F4699B1A364CE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		23F62AD44E4E4487B1F28D9F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		44A00F89E4164C588923997F /* pitch-names */ = {
+			isa = PBXGroup;
+			children = (
+				630829A92A284896A51EDC6E /* Source Files */,
+				1DACAB2EB63B4FD5814583C6 /* Header Files */,
+				823721A5148442529EB191F3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
+			);
+			name = "pitch-names";
+			sourceTree = "<group>";
+		};
+		52B659035678417DAF37BD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630829A92A284896A51EDC6E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3799ABA6CA2047C2ACF64DFB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
+				4B132C4E2BB84BD8A9D598CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
+				74263FC8DD614DBF978932A4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
+				5E2DF4EA85664FBBAA33906D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9F2D23F0C98F48B8A490B77B /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				44A00F89E4164C588923997F /* pitch-names */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		D1EE8ED3EC734DF4BAFA748B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				23F62AD44E4E4487B1F28D9F /* CMake Rules */,
+				DA26E4E0B53248A0AE3C32FD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EE6F37FC2A3347C8B5E9B4D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FADF993573EF4C61884D5249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C71863FA77F41CE87BDE996 /* pitch-names */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE7785D415F4A72A3CC2D5F = {
+			isa = PBXGroup;
+			children = (
+				9F2D23F0C98F48B8A490B77B /* PlugIn-Examples */,
+				D1EE8ED3EC734DF4BAFA748B /* ALL_BUILD */,
+				FADF993573EF4C61884D5249 /* Products */,
+				52B659035678417DAF37BD7B /* Frameworks */,
+				EE6F37FC2A3347C8B5E9B4D0 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573130B0F56696CBEB12F6D0 /* pitch-names */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2B9CE057D046D5ACB0C516 /* Build configuration list for PBXNativeTarget "pitch-names" */;
+			buildPhases = (
+				87F6039EA60E1777592E8970 /* CMake PreBuild Rules */,
+				63A9BA3782684864843C3989 /* Sources */,
+				E74FBBB3AED141AD915BFDD4 /* Frameworks */,
+				CE38036F00B5ED465D500A82 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FFD036135449258CA0D79D /* PBXTargetDependency */,
+			);
+			name = "pitch-names";
+			productName = "pitch-names";
+			productReference = 0C71863FA77F41CE87BDE996 /* pitch-names */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF1DF4705DF492A9CA6D08F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = E2F843F1F57F428FAC0A904F /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E405AEFFDBB1431DA2FD28D6 /* Debug */,
+				56EE24A15F8647BEBCBCAE76 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FBE7785D415F4A72A3CC2D5F;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				573130B0F56696CBEB12F6D0 /* pitch-names */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380C07B0546E740D4BA95FA1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		64A6EF4CCE7E00C951373EC3 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87F6039EA60E1777592E8970 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CE38036F00B5ED465D500A82 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/pitch-names.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/pitch-names.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A9BA3782684864843C3989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77637725E51D4429BA8A4868 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/factory.cpp */,
+				5AB0FC872F7F472783D6CD06 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnames.cpp */,
+				FC41A0E88A5143518F258E11 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/pitchnames/source/pitchnamesdatabrowsersource.cpp */,
+				2FD8AB7C80A74058AC61DE13 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4473311DF5B248E3BDCCBEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 573130B0F56696CBEB12F6D0 /* pitch-names */;
+			targetProxy = CE1286ABEB2A4AA4B3635058 /* PBXContainerItemProxy */;
+		};
+		51FFD036135449258CA0D79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = EAAA4517960D434288B3A35A /* PBXContainerItemProxy */;
+		};
+		BD841DCDA4B349E5B96FE45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = FCEA6ED86318463BAB3B94C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		096E89EE0972422F8F27262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		2388E9D89E1C493CB232ECED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		25C74879686B43B9AD76D8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pitch_names_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeFiles/pitch-names.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.pitch-names";
+				PRODUCT_NAME = "pitch-names";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/pitch-names.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		4F7CEB3F68634873A9590FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",pitch_names_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/pitchnames/CMakeFiles/pitch-names.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.pitch-names";
+				PRODUCT_NAME = "pitch-names";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/pitch-names.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		5A6FE942A1E845C88D44A545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		68C3A5BF62404C2D8FF7BDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E6DE5056A03B418B8CE6E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FCFA17EDF0E44808AB60D8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B9A330AE2641DDBED67651 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C3A5BF62404C2D8FF7BDBF /* Debug */,
+				E6DE5056A03B418B8CE6E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0D2B9CE057D046D5ACB0C516 /* Build configuration list for PBXNativeTarget "pitch-names" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C74879686B43B9AD76D8BD /* Debug */,
+				4F7CEB3F68634873A9590FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		791C2189C5FB4B2A9C1F623F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6FE942A1E845C88D44A545 /* Debug */,
+				FCFA17EDF0E44808AB60D8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2F843F1F57F428FAC0A904F /* Build configuration list for PBXProject "smtg-vst3-pitchnames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2388E9D89E1C493CB232ECED /* Debug */,
+				096E89EE0972422F8F27262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF1DF4705DF492A9CA6D08F /* Project object */;
+}

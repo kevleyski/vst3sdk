@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/programchange/source/plug.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/programchange/source/plug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstaudioeffect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstbus.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fobject.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/iupdatehandler.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fdebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstcomponent.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstcomponentbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstmessage.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstattributes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsthostapplication.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/programchange/source/plugparamids.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/programchange/source/plugcids.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstaudioprocessoralgo.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstevents.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ibstream.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/futils.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fstreamer.h

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animations.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animations.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../crect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cpoint.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstkeycode.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cbuttonstate.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cgraphicstransform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cframe.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cviewcontainer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cdrawdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../optional.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/iplatformframecallback.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../controls/ccontrol.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../controls/../cview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../controls/../ifocusdrawing.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../controls/../vstguifwd.h

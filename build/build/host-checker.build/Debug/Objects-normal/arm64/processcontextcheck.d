@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker/source/processcontextcheck.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker/source/eventlogger.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/hostchecker/source/logevents.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/istringresult.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipersistent.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fobject.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/iupdatehandler.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fdebug.h

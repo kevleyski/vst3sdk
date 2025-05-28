@@ -1,0 +1,24 @@
+dependencies: \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/plugprovider.cpp \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/plugprovider.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/module.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/../utility/uid.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/../utility/optional.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/istringresult.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknownimpl.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstmessage.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstattributes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/common/threadchecker.h

@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/ccontrol.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cpoint.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../crect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../vstkeycode.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cbuttonstate.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cgraphicstransform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../ifocusdrawing.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/icontrollistener.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../algorithm.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../optional.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../events.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cframe.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cviewcontainer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cdrawdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformframecallback.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cgraphicspath.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../ccolor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../cvstguitimer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../platform/iplatformtimer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../platform/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../dispatchlist.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../iviewlistener.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../private/disabledeprecatedmessage.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/controls/../private/enabledeprecatedmessage.h

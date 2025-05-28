@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 71DD879E7D8946219E4DE7DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FC1FA38087DC289FBBA4254D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5629448C2E28495395F1D3B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C43371D25AE9789CC44CDD59 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				702FC733F8714A9A87494FA7 /* PBXTargetDependency */,
+				392D9C7ACAF74A35A967311E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09FF2D2733A24E19A75466CC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugparamids.h */ = {isa = PBXBuildFile; fileRef = 59F200F739824F93AF6956C2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugparamids.h */; };
+		12B25E34DF134AA28CD8F89C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugentry.cpp */ = {isa = PBXBuildFile; fileRef = DF1ADD10AEE04502B2307F50 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugentry.cpp */; };
+		2AB32AC0E6A94EF6A8FF46F7 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A407DD78D484F419987B4CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */; };
+		31C82C0E64404075B10161A6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.cpp */ = {isa = PBXBuildFile; fileRef = A134BCEF1F8043C49EAEDB2A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.cpp */; };
+		5381D79B1EAC43E2A9B772CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.h */ = {isa = PBXBuildFile; fileRef = F83158923D554251A4468996 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.h */; };
+		621396B5C5D54C9F8E2D4996 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcids.h */ = {isa = PBXBuildFile; fileRef = FC79B5B5D17049D0AAF02AA4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcids.h */; };
+		8BF448F164AF47B590BD4D2A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.cpp */ = {isa = PBXBuildFile; fileRef = BF09714C0A7A46268612DE7B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.cpp */; };
+		BEF6BC99C83E428C894AC7DF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/version.h */ = {isa = PBXBuildFile; fileRef = BEEB1E66EBF2466AB93F6FE3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/version.h */; };
+		CA2CC2CFA6C54A2D89FE758E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.h */ = {isa = PBXBuildFile; fileRef = E96AC390E358429A82B7D087 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.h */; };
+		DC60C180C3FF4FA98B4DFDBC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 91000FC11132447C8E5C27F8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		17B67CFFCDBE4BFC82799118 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F1BC371D82134259907F7762 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4A93D4EBB9004336B649E1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8023B7A28587469D9D6B5DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B2725695A54473785BDFAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8023B7A28587469D9D6B5DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931AAEF967C0C393E6586834;
+			remoteInfo = "legacy-midicc-out";
+		};
+		FD763BF36360491CAF7D0EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8023B7A28587469D9D6B5DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A407DD78D484F419987B4CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		43CAA61952E740969EDEB5D2 /* legacy-midicc-out */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "legacy-midicc-out.bundle/Contents/MacOS/legacy-midicc-out"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F200F739824F93AF6956C2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugparamids.h; path = source/plugparamids.h; sourceTree = SOURCE_ROOT; };
+		91000FC11132447C8E5C27F8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		A134BCEF1F8043C49EAEDB2A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugcontroller.cpp; path = source/plugcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		A70A66446E1E440EB709207A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BEEB1E66EBF2466AB93F6FE3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		BF09714C0A7A46268612DE7B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plug.cpp; path = source/plug.cpp; sourceTree = SOURCE_ROOT; };
+		DF1ADD10AEE04502B2307F50 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugentry.cpp; path = source/plugentry.cpp; sourceTree = SOURCE_ROOT; };
+		E96AC390E358429A82B7D087 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plug.h; path = source/plug.h; sourceTree = SOURCE_ROOT; };
+		F83158923D554251A4468996 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcontroller.h; path = source/plugcontroller.h; sourceTree = SOURCE_ROOT; };
+		FC79B5B5D17049D0AAF02AA4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = plugcids.h; path = source/plugcids.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4C2F6B3D3184E22BC2C7E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4A700B944D40C09707589D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1DC89931BD9A46D183BA667D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E96AC390E358429A82B7D087 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.h */,
+				FC79B5B5D17049D0AAF02AA4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcids.h */,
+				F83158923D554251A4468996 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.h */,
+				59F200F739824F93AF6956C2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugparamids.h */,
+				BEEB1E66EBF2466AB93F6FE3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4AD65F16D16B41F386170E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6969798DA1D144168E41ACCA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1A4A700B944D40C09707589D /* CMake Rules */,
+				A70A66446E1E440EB709207A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6DD9E9DECFDF4CF88C1327EB = {
+			isa = PBXGroup;
+			children = (
+				E8DCEC8FA949479FA5CBB6A9 /* PlugIn-Examples */,
+				6969798DA1D144168E41ACCA /* ALL_BUILD */,
+				BAF2CF1F26034E16B9A2B2EF /* Products */,
+				4AD65F16D16B41F386170E1F /* Frameworks */,
+				C8AF663D94DE488293167F7A /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF2CF1F26034E16B9A2B2EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CAA61952E740969EDEB5D2 /* legacy-midicc-out */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AF663D94DE488293167F7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D48403DF10C745FC98DE8F2F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF09714C0A7A46268612DE7B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.cpp */,
+				A134BCEF1F8043C49EAEDB2A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.cpp */,
+				DF1ADD10AEE04502B2307F50 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugentry.cpp */,
+				91000FC11132447C8E5C27F8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D839607045B64257B0456991 /* legacy-midicc-out */ = {
+			isa = PBXGroup;
+			children = (
+				D48403DF10C745FC98DE8F2F /* Source Files */,
+				1DC89931BD9A46D183BA667D /* Header Files */,
+				0A407DD78D484F419987B4CD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/CMakeLists.txt */,
+			);
+			name = "legacy-midicc-out";
+			sourceTree = "<group>";
+		};
+		E8DCEC8FA949479FA5CBB6A9 /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				D839607045B64257B0456991 /* legacy-midicc-out */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931AAEF967C0C393E6586834 /* legacy-midicc-out */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F736E81DD4489394762156 /* Build configuration list for PBXNativeTarget "legacy-midicc-out" */;
+			buildPhases = (
+				0BBF6F8765B33D3AFB7A161C /* CMake PreBuild Rules */,
+				3E41B078C0E14367B4ED5D04 /* Sources */,
+				B4C2F6B3D3184E22BC2C7E5B /* Frameworks */,
+				829626C4AC353CF9860E6948 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79490BA9B58D48DBA4BF7B99 /* PBXTargetDependency */,
+			);
+			name = "legacy-midicc-out";
+			productName = "legacy-midicc-out";
+			productReference = 43CAA61952E740969EDEB5D2 /* legacy-midicc-out */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8023B7A28587469D9D6B5DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = 8148FAAD0FF04B19A1045B5B /* Build configuration list for PBXProject "smtg-vst3-legacymidiccout" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				17B67CFFCDBE4BFC82799118 /* Debug */,
+				F1BC371D82134259907F7762 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6DD9E9DECFDF4CF88C1327EB;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				931AAEF967C0C393E6586834 /* legacy-midicc-out */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BBF6F8765B33D3AFB7A161C /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		829626C4AC353CF9860E6948 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/legacy-midicc-out.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/legacy-midicc-out.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C43371D25AE9789CC44CDD59 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FC1FA38087DC289FBBA4254D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E41B078C0E14367B4ED5D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF448F164AF47B590BD4D2A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plug.cpp */,
+				31C82C0E64404075B10161A6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugcontroller.cpp */,
+				12B25E34DF134AA28CD8F89C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/legacymidiccout/source/plugentry.cpp */,
+				DC60C180C3FF4FA98B4DFDBC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392D9C7ACAF74A35A967311E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 4A93D4EBB9004336B649E1A6 /* PBXContainerItemProxy */;
+		};
+		702FC733F8714A9A87494FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931AAEF967C0C393E6586834 /* legacy-midicc-out */;
+			targetProxy = 7B2725695A54473785BDFAA7 /* PBXContainerItemProxy */;
+		};
+		79490BA9B58D48DBA4BF7B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = FD763BF36360491CAF7D0EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FA318B17BA443EE885D37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		12701773F9A44C14B78A88F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		294869D1E3514867AF64DE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",legacy_midicc_out_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeFiles/legacy-midicc-out.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.legacy-midicc-out";
+				PRODUCT_NAME = "legacy-midicc-out";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/legacy-midicc-out.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		4C44B138D01348A2A46A8806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",legacy_midicc_out_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/legacymidiccout/CMakeFiles/legacy-midicc-out.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.legacy-midicc-out";
+				PRODUCT_NAME = "legacy-midicc-out";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/legacy-midicc-out.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		51238E14A64247EE8D92515F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		965D840E6CE24BD0B95D974B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		D9F72419BD3845C9851EBBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EB5E19639067404FBDFEB5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5629448C2E28495395F1D3B0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12701773F9A44C14B78A88F6 /* Debug */,
+				51238E14A64247EE8D92515F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71DD879E7D8946219E4DE7DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5E19639067404FBDFEB5C2 /* Debug */,
+				D9F72419BD3845C9851EBBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8148FAAD0FF04B19A1045B5B /* Build configuration list for PBXProject "smtg-vst3-legacymidiccout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA318B17BA443EE885D37D5 /* Debug */,
+				965D840E6CE24BD0B95D974B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9F736E81DD4489394762156 /* Build configuration list for PBXNativeTarget "legacy-midicc-out" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294869D1E3514867AF64DE80 /* Debug */,
+				4C44B138D01348A2A46A8806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8023B7A28587469D9D6B5DE9 /* Project object */;
+}

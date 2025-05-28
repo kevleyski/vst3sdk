@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cbitmap.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cpoint.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/crect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cresourcedescription.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/pixelbuffer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/iplatformbitmap.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cfont.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/optional.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/iplatformstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/cgradient.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/ccolor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/platformfactory.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/platformfwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../base64codec.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/malloc.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/../lib/vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../cstream.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../uiattributes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../../lib/platform/std_unorderedmap.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../uiviewcreator.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/locale.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/parsecolor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/scalefactorutils.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uinode.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/../uidescriptionfwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/detail/uidesclist.h

@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.mm \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformtextedit.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cfont.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../optional.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../ccolor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../crect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cpoint.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cdrawdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/objcclassbuilder.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/autoreleasepool.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../cfontmac.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformfont.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../platformfactory.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../platformfwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../macstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../events.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbuttonstate.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstkeycode.h

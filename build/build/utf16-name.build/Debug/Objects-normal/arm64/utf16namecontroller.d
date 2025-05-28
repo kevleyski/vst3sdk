@@ -1,0 +1,27 @@
+dependencies: \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vsteditcontroller.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstcomponentbase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstmessage.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstattributes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsthostapplication.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/source/fobject.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/iupdatehandler.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/base/source/fdebug.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstparameters.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstunits.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/source/common/pluginview.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/gui/iplugview.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/typesizecheck.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h

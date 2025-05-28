@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3E25AB40FD1C40678689C033 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7F02C7AD869171D5D2B26754 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30A07323B2744FC0BC00BEEB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6696330B3018B16B07256B9B /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				86C965C097FA4B4AA394CB0A /* PBXTargetDependency */,
+				303F81A034AE426798E3879C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D20442D4226457494E63C78 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */ = {isa = PBXBuildFile; fileRef = A797A63D5C904ABA9C4BCA0E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */; };
+		3B3A2990D10E4DE69573B4A6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */ = {isa = PBXBuildFile; fileRef = 9D5F1A24363043A7931DFBDE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */; };
+		3DFC68181E744313B2C25485 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */ = {isa = PBXBuildFile; fileRef = F77FE5BF6C934578B6AE4AB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48AFF583A283467EB3638523 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */ = {isa = PBXBuildFile; fileRef = 6D0EF80A624A45A5B3FCF010 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */; };
+		58D060779FDB4F3DBBEE0B2D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */ = {isa = PBXBuildFile; fileRef = CC1EADCC5C9141EE8D459CBA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */; };
+		8A39596905D549D9AABC7709 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 60A8DC7AC2AD4B97917593A8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		9645EC5CA9744B19A065F1EF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */ = {isa = PBXBuildFile; fileRef = 76F280F530534EA780537A69 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */; };
+		A2742E0967404D24970893EA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */ = {isa = PBXBuildFile; fileRef = B5B31DFE2C6C451EB0469E1B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */; };
+		A3317B2A1020450189E61018 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */ = {isa = PBXBuildFile; fileRef = 3405FE7646184F2097DCB004 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */; };
+		B6768A6631E948D4AA08B0B8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */ = {isa = PBXBuildFile; fileRef = 45FE13E382324B4AAE7C17F9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */; };
+		B97D30D68FC1404797DAABE6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74658F4549A54D16855C974C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */; };
+		BFAF6DC0704F4EC6904DFA9E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */ = {isa = PBXBuildFile; fileRef = ED9443EE42074A8FA555B9D4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */; };
+		C12D9E572B6A4C5894A61677 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */ = {isa = PBXBuildFile; fileRef = 998453D1D9B2421AA26A0006 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */; };
+		C97586538E6E4BB78769050A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */ = {isa = PBXBuildFile; fileRef = 135929B550684D0ABC15AE6B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */; };
+		D351DF010D2143DA88108038 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */ = {isa = PBXBuildFile; fileRef = 474593FC87A243E487A612DB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */; };
+		E86803CFAB92494DAA7BB40E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */ = {isa = PBXBuildFile; fileRef = 12A481938CA54E49950100D5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3B54B3AB9F0B4A0D9DA1FB08 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		670458A96B974A4C98FB1D0B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		45639BFC46F847A089ADA1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C185F184069B450FAC92A879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		5310F151B0FE4E93A84A6449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C185F184069B450FAC92A879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		A6E8BB4ECCA040EDA0DAB6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C185F184069B450FAC92A879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78A07D92AE54D2244C27452;
+			remoteInfo = "data-exchange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A481938CA54E49950100D5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; fileEncoding = 4; name = nanovg_mtl_shaders.metal; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal; sourceTree = SOURCE_ROOT; };
+		135929B550684D0ABC15AE6B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg.h; path = source/3rdparty/nanovg/src/nanovg.h; sourceTree = SOURCE_ROOT; };
+		3405FE7646184F2097DCB004 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = waveformview.h; path = source/waveformview.h; sourceTree = SOURCE_ROOT; };
+		45FE13E382324B4AAE7C17F9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = waveformview.cpp; path = source/waveformview.cpp; sourceTree = SOURCE_ROOT; };
+		474593FC87A243E487A612DB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanovg_mtl.h; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl.h; sourceTree = SOURCE_ROOT; };
+		60A8DC7AC2AD4B97917593A8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		6D0EF80A624A45A5B3FCF010 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		74658F4549A54D16855C974C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76F280F530534EA780537A69 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processor.cpp; path = source/processor.cpp; sourceTree = SOURCE_ROOT; };
+		9199190B991A4DF28DEC9110 /* data-exchange */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "data-exchange.bundle/Contents/MacOS/data-exchange"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998453D1D9B2421AA26A0006 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controller.cpp; path = source/controller.cpp; sourceTree = SOURCE_ROOT; };
+		9D5F1A24363043A7931DFBDE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = source/3rdparty/nanovg/src/nanovg.c; sourceTree = SOURCE_ROOT; };
+		A797A63D5C904ABA9C4BCA0E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = editor.uidesc; path = resource/editor.uidesc; sourceTree = SOURCE_ROOT; };
+		B5B31DFE2C6C451EB0469E1B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shared.h; path = source/shared.h; sourceTree = SOURCE_ROOT; };
+		CC1EADCC5C9141EE8D459CBA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = waveformview_metal.mm; path = source/waveformview_metal.mm; sourceTree = SOURCE_ROOT; };
+		D1F1537A5AA34C95BFBDEA1E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED9443EE42074A8FA555B9D4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = factory.cpp; path = source/factory.cpp; sourceTree = SOURCE_ROOT; };
+		F77FE5BF6C934578B6AE4AB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nanovg_mtl.m; path = source/3rdparty/MetalNanoVG/src/nanovg_mtl.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621D7C0D3CEF41DD817E8913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246A15FB1AB74EE48CD1C9B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35236231236140D99D72B117 /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DBE90EADCB5849D59D031B0A /* data-exchange */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		5798ADCC86FB4E64912E55D6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		75261E7A68554C2FAE20E657 = {
+			isa = PBXGroup;
+			children = (
+				35236231236140D99D72B117 /* PlugIn-Examples */,
+				DC56B763E3D447F3BD716696 /* ALL_BUILD */,
+				DA91829211F64A10A47F5DCA /* Products */,
+				FA8E31F7B7474DCDA1D750E1 /* Frameworks */,
+				246A15FB1AB74EE48CD1C9B8 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		87BA901804ED4AE6BD119F6D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				474593FC87A243E487A612DB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.h */,
+				135929B550684D0ABC15AE6B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.h */,
+				B5B31DFE2C6C451EB0469E1B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/shared.h */,
+				6D0EF80A624A45A5B3FCF010 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/version.h */,
+				3405FE7646184F2097DCB004 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8DB7C62A77C24E42873D9225 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77FE5BF6C934578B6AE4AB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */,
+				9D5F1A24363043A7931DFBDE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */,
+				998453D1D9B2421AA26A0006 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */,
+				ED9443EE42074A8FA555B9D4 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */,
+				76F280F530534EA780537A69 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */,
+				45FE13E382324B4AAE7C17F9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */,
+				CC1EADCC5C9141EE8D459CBA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */,
+				60A8DC7AC2AD4B97917593A8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DA91829211F64A10A47F5DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9199190B991A4DF28DEC9110 /* data-exchange */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE90EADCB5849D59D031B0A /* data-exchange */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7C62A77C24E42873D9225 /* Source Files */,
+				87BA901804ED4AE6BD119F6D /* Header Files */,
+				74658F4549A54D16855C974C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */,
+				A797A63D5C904ABA9C4BCA0E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */,
+				12A481938CA54E49950100D5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl_shaders.metal */,
+			);
+			name = "data-exchange";
+			sourceTree = "<group>";
+		};
+		DC56B763E3D447F3BD716696 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5798ADCC86FB4E64912E55D6 /* CMake Rules */,
+				D1F1537A5AA34C95BFBDEA1E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FA8E31F7B7474DCDA1D750E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78A07D92AE54D2244C27452 /* data-exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F336D4C2C9E945D4B6D59597 /* Build configuration list for PBXNativeTarget "data-exchange" */;
+			buildPhases = (
+				87B40C5CC2C2E2BA885B2569 /* CMake PreBuild Rules */,
+				814F8D26EB5A4066BBD937D9 /* Resources */,
+				FA7D60CE443C45B1B3FAD57B /* Sources */,
+				621D7C0D3CEF41DD817E8913 /* Frameworks */,
+				1437A55776BC5F087C8DADE0 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782ED5CCE4A44A6BBB8A7EA2 /* PBXTargetDependency */,
+			);
+			name = "data-exchange";
+			productName = "data-exchange";
+			productReference = 9199190B991A4DF28DEC9110 /* data-exchange */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C185F184069B450FAC92A879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = C0D0C5BD5E6C437FACCDCEEF /* Build configuration list for PBXProject "smtg-vst3-dataexchange" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3B54B3AB9F0B4A0D9DA1FB08 /* Debug */,
+				670458A96B974A4C98FB1D0B /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 75261E7A68554C2FAE20E657;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				E78A07D92AE54D2244C27452 /* data-exchange */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1437A55776BC5F087C8DADE0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6696330B3018B16B07256B9B /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7F02C7AD869171D5D2B26754 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87B40C5CC2C2E2BA885B2569 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/data-exchange.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/data-exchange.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814F8D26EB5A4066BBD937D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D20442D4226457494E63C78 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/resource/editor.uidesc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D60CE443C45B1B3FAD57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC68181E744313B2C25485 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src/nanovg_mtl.m */,
+				3B3A2990D10E4DE69573B4A6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src/nanovg.c */,
+				C12D9E572B6A4C5894A61677 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/controller.cpp */,
+				BFAF6DC0704F4EC6904DFA9E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/factory.cpp */,
+				9645EC5CA9744B19A065F1EF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/processor.cpp */,
+				B6768A6631E948D4AA08B0B8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview.cpp */,
+				58D060779FDB4F3DBBEE0B2D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/waveformview_metal.mm */,
+				8A39596905D549D9AABC7709 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303F81A034AE426798E3879C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 5310F151B0FE4E93A84A6449 /* PBXContainerItemProxy */;
+		};
+		782ED5CCE4A44A6BBB8A7EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 45639BFC46F847A089ADA1EF /* PBXContainerItemProxy */;
+		};
+		86C965C097FA4B4AA394CB0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78A07D92AE54D2244C27452 /* data-exchange */;
+			targetProxy = A6E8BB4ECCA040EDA0DAB6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16986ADC86944B3F965ABBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3D388E20C7EB43A293E3B49F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		5EBBC8AF80A64EF3A34406B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",data_exchange_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeFiles/data-exchange.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CFLAGS = ("   -fPIC -fvisibility=hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' '-stdlib=libc++' ","$(inherited)");
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,"-framework Metal","-framework QuartzCore","-framework CoreAudio",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.data-exchange";
+				PRODUCT_NAME = "data-exchange";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/data-exchange.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		9BF4CEE3AC3D42F3B2947D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		A4CA5CC95ED3488E83A878EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CC7E1FA335A144D394F5A178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",data_exchange_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/nanovg/src,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/dataexchange/source/3rdparty/MetalNanoVG/src,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/dataexchange/CMakeFiles/data-exchange.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -fvisibility=hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' '-stdlib=libc++' ","$(inherited)");
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,"-framework Metal","-framework QuartzCore","-framework CoreAudio",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.data-exchange";
+				PRODUCT_NAME = "data-exchange";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/data-exchange.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		E7B481529EE643368A25043C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E8EC509C386046D49D77984A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A07323B2744FC0BC00BEEB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CA5CC95ED3488E83A878EE /* Debug */,
+				16986ADC86944B3F965ABBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E25AB40FD1C40678689C033 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B481529EE643368A25043C /* Debug */,
+				E8EC509C386046D49D77984A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0D0C5BD5E6C437FACCDCEEF /* Build configuration list for PBXProject "smtg-vst3-dataexchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D388E20C7EB43A293E3B49F /* Debug */,
+				9BF4CEE3AC3D42F3B2947D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F336D4C2C9E945D4B6D59597 /* Build configuration list for PBXNativeTarget "data-exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBBC8AF80A64EF3A34406B8 /* Debug */,
+				CC7E1FA335A144D394F5A178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C185F184069B450FAC92A879 /* Project object */;
+}

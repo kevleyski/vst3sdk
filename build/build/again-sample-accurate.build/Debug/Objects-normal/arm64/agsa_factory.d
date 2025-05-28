@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa_factory.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/agsa.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/tutorial.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again_sampleaccurate/source/version.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again_sampleaccurate/projectversion.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/pluginfactory.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/utility/testing.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/test/itest.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h

@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98F967BC0D634A0A9C945FFD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2EC47846A7467B5601682BDB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A9B5989E6DE477B91D4C663 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D7F5C2B380321D4D48FE311D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				87ACEECFAA174F1AA4AB7018 /* PBXTargetDependency */,
+				BF17A02160694CBD8395637E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		28C2D8480F0E43BDB4CE9AAE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */ = {isa = PBXBuildFile; fileRef = 8835F1FC4825409F87CE51DF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */; };
+		55B33871D54E489EB1780796 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E0A1E7E725F94756927DA3C8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */; };
+		60FBE750B9ED42B08CA1230F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */ = {isa = PBXBuildFile; fileRef = C54DDE0B21224C0A99BD5C6F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */; };
+		64BCF837DCE74709AB65A4C6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */ = {isa = PBXBuildFile; fileRef = 715DE4CB5D764EFD8EF64CFA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */; };
+		667D62CB4F08496391731DB1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */ = {isa = PBXBuildFile; fileRef = 629D2714C18E49649C05F84B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */; };
+		7B89362E41174CB097EC20F8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */ = {isa = PBXBuildFile; fileRef = D0A099C42F79448483CE327B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */; };
+		893A5AECAB4F424680D9A0A2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */ = {isa = PBXBuildFile; fileRef = 49CA5FEE90FB45999A80C6E9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */; };
+		C5FCFED4993F407189054BA2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */ = {isa = PBXBuildFile; fileRef = 26103582C85D4F89A3EBDC2B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */; };
+		DD5AB90EAB65437DA345C0BA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/README.md */ = {isa = PBXBuildFile; fileRef = 3218838C205C43AB8799E515 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/README.md */; };
+		E5374C469B4B48EBB9E6CACC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = DEEC471B3D354DB1B6A38651 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1594F67AF4DD47938FA66306 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		438C851F66744FF29FB69A02 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		831C61E2382944C3BB35321E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE8AC2BAF154AEABAEFA9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		C394D21A3B0F414D9012BBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE8AC2BAF154AEABAEFA9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACA63B7C28BE8993C71BA5C;
+			remoteInfo = "utf16-name";
+		};
+		DC4E54459B23450E883A0978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE8AC2BAF154AEABAEFA9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26103582C85D4F89A3EBDC2B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16nameprocessor.h; path = source/utf16nameprocessor.h; sourceTree = SOURCE_ROOT; };
+		3218838C205C43AB8799E515 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/README.md */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		49CA5FEE90FB45999A80C6E9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		629D2714C18E49649C05F84B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16namecontroller.h; path = source/utf16namecontroller.h; sourceTree = SOURCE_ROOT; };
+		715DE4CB5D764EFD8EF64CFA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16nameprocessor.cpp; path = source/utf16nameprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		73472C8641944C1C9DFCCBC9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8835F1FC4825409F87CE51DF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16nameentry.cpp; path = source/utf16nameentry.cpp; sourceTree = SOURCE_ROOT; };
+		C54DDE0B21224C0A99BD5C6F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf16namecontroller.cpp; path = source/utf16namecontroller.cpp; sourceTree = SOURCE_ROOT; };
+		CA3B7E6A1EE74AE8B8044D2B /* utf16-name */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "utf16-name.bundle/Contents/MacOS/utf16-name"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A099C42F79448483CE327B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf16namecids.h; path = source/utf16namecids.h; sourceTree = SOURCE_ROOT; };
+		DEEC471B3D354DB1B6A38651 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		E0A1E7E725F94756927DA3C8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD97CD6D989A4042AEB3D38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B4D11A41C74D3D86658CC8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2F1CBBAC90BE485D8EFA52C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B7E6A1EE74AE8B8044D2B /* utf16-name */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B507B5F0B145ACBC898453 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		402DDB49C41D4A3289DE43B3 = {
+			isa = PBXGroup;
+			children = (
+				AB0FE0F5A74F493FB4C57EDA /* PlugIn-Examples */,
+				4E51F2AF4BB042E5ADD4C484 /* ALL_BUILD */,
+				2F1CBBAC90BE485D8EFA52C4 /* Products */,
+				F976505DAF904D5AA9E49406 /* Frameworks */,
+				37B507B5F0B145ACBC898453 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		4E51F2AF4BB042E5ADD4C484 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				09B4D11A41C74D3D86658CC8 /* CMake Rules */,
+				73472C8641944C1C9DFCCBC9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		894E8FBDAD5A4B9391EF0083 /* utf16-name */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E58A5703845A9A41FEFD6 /* Header Files */,
+				8AB35D1356BA48AA88A8308F /* Source Files */,
+				E0A1E7E725F94756927DA3C8 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/CMakeLists.txt */,
+				3218838C205C43AB8799E515 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/README.md */,
+			);
+			name = "utf16-name";
+			sourceTree = "<group>";
+		};
+		8AB35D1356BA48AA88A8308F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54DDE0B21224C0A99BD5C6F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */,
+				8835F1FC4825409F87CE51DF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */,
+				715DE4CB5D764EFD8EF64CFA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */,
+				DEEC471B3D354DB1B6A38651 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AB0FE0F5A74F493FB4C57EDA /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				894E8FBDAD5A4B9391EF0083 /* utf16-name */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		EE3E58A5703845A9A41FEFD6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A099C42F79448483CE327B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecids.h */,
+				629D2714C18E49649C05F84B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.h */,
+				26103582C85D4F89A3EBDC2B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.h */,
+				49CA5FEE90FB45999A80C6E9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F976505DAF904D5AA9E49406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACA63B7C28BE8993C71BA5C /* utf16-name */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2583B85A35964ABFA040B082 /* Build configuration list for PBXNativeTarget "utf16-name" */;
+			buildPhases = (
+				6312BB065A328750FA827802 /* CMake PreBuild Rules */,
+				A90A5215A0C7438698ADFC8C /* Sources */,
+				AD97CD6D989A4042AEB3D38B /* Frameworks */,
+				2856EC9F33458A4D6C105DD1 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3990B974FE144180BF666B08 /* PBXTargetDependency */,
+			);
+			name = "utf16-name";
+			productName = "utf16-name";
+			productReference = CA3B7E6A1EE74AE8B8044D2B /* utf16-name */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CE8AC2BAF154AEABAEFA9AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = 2F0E7D7772024F75887181E7 /* Build configuration list for PBXProject "smtg-vst3-utf16name" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				438C851F66744FF29FB69A02 /* Debug */,
+				1594F67AF4DD47938FA66306 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 402DDB49C41D4A3289DE43B3;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				3ACA63B7C28BE8993C71BA5C /* utf16-name */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2856EC9F33458A4D6C105DD1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2EC47846A7467B5601682BDB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6312BB065A328750FA827802 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/utf16-name.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/utf16-name.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D7F5C2B380321D4D48FE311D /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90A5215A0C7438698ADFC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FBE750B9ED42B08CA1230F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16namecontroller.cpp */,
+				28C2D8480F0E43BDB4CE9AAE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameentry.cpp */,
+				64BCF837DCE74709AB65A4C6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/utf16name/source/utf16nameprocessor.cpp */,
+				E5374C469B4B48EBB9E6CACC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3990B974FE144180BF666B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 831C61E2382944C3BB35321E /* PBXContainerItemProxy */;
+		};
+		87ACEECFAA174F1AA4AB7018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACA63B7C28BE8993C71BA5C /* utf16-name */;
+			targetProxy = C394D21A3B0F414D9012BBD7 /* PBXContainerItemProxy */;
+		};
+		BF17A02160694CBD8395637E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = DC4E54459B23450E883A0978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		246A1FD447534C898514ACEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",utf16_name_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/utf16-name.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.utf16-name";
+				PRODUCT_NAME = "utf16-name";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/utf16-name.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		3A229CF6CAFB41C294FB6F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3D040C44EBA042CB9DAECFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		43E8335779A94673B74E1A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",utf16_name_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/utf16name/CMakeFiles/utf16-name.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.utf16-name";
+				PRODUCT_NAME = "utf16-name";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/utf16-name.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		62FE20A4E24C4400A4DCE6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		681D3A49E8514DA783F76328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7EC6FAA1909A433292590E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		B77FE92C4DC04C878A227920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2583B85A35964ABFA040B082 /* Build configuration list for PBXNativeTarget "utf16-name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246A1FD447534C898514ACEE /* Debug */,
+				43E8335779A94673B74E1A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2F0E7D7772024F75887181E7 /* Build configuration list for PBXProject "smtg-vst3-utf16name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77FE92C4DC04C878A227920 /* Debug */,
+				7EC6FAA1909A433292590E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A9B5989E6DE477B91D4C663 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FE20A4E24C4400A4DCE6A7 /* Debug */,
+				3A229CF6CAFB41C294FB6F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98F967BC0D634A0A9C945FFD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D040C44EBA042CB9DAECFED /* Debug */,
+				681D3A49E8514DA783F76328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CE8AC2BAF154AEABAEFA9AE /* Project object */;
+}

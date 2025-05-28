@@ -1,0 +1,19 @@
+dependencies: \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/value.cpp \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/value.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../ivalue.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../fwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/cstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguifwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/vstguidebug.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/optional.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/platform/iplatformstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../../../lib/platform/../vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/helpers/../interface.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/algorithm.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/optional.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/vstguidebug.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../../lib/dispatchlist.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/ivaluelistener.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/helpers/../../include/ivalue.h

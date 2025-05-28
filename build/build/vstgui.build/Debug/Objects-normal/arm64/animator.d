@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animator.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/animator.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/itimingfunction.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cvstguitimer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/iplatformtimer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cpoint.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../crect.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../vstkeycode.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cbuttonstate.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../cgraphicstransform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../dispatchlist.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/platformfactory.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/lib/animation/../platform/platformfwd.h

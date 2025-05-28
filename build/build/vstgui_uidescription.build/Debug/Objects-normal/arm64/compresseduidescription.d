@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/cresourcedescription.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguidebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescription.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/iuidescription.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguifwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/cfont.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/cstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/optional.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/iplatformstring.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/../vstguibase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uidescriptionfwd.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/cstream.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/uicontentprovider.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/icontentprovider.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.c \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.h

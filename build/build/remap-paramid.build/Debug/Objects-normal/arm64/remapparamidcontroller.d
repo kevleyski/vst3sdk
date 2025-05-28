@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vsteditcontroller.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstcomponentbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstmessage.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstattributes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsthostapplication.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fobject.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/iupdatehandler.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fdebug.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstparameters.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstunits.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/common/pluginview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/gui/iplugview.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/base/typesizecheck.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/vst/ivstremapparamid.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcids.h \
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/base/source/fstreamer.h

@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 592028C4C02C4C32839DCA57 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				141381D9DE0F534732E4ACD6 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6915957A69104A179447876A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				82A162845FADA2BBC82281E6 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				4C29AFF143174050BAD51C52 /* PBXTargetDependency */,
+				D722BA5206D64123B10FCC45 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FAD81EEE8C64E85A31CFA98 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/README.md */ = {isa = PBXBuildFile; fileRef = 158DF744C121405BB1A37143 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/README.md */; };
+		12B127C4EDFD4584958D3966 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.cpp */ = {isa = PBXBuildFile; fileRef = A9914BA26F95418E8C42E61D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.cpp */; };
+		14CF4B376BC047B781A9A067 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.h */ = {isa = PBXBuildFile; fileRef = 192A6329F8984B339FD23922 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.h */; };
+		43782612E0034A5B95457A0D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidentry.cpp */ = {isa = PBXBuildFile; fileRef = F5FF745916E348FB84EBB139 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidentry.cpp */; };
+		7160543948DD4C809D037DA9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.h */ = {isa = PBXBuildFile; fileRef = CE30168394B846649834BE01 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.h */; };
+		C2196AC0A0484FE3BC2A3A77 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/version.h */ = {isa = PBXBuildFile; fileRef = 9C4AC82CFABF46A19D83DC9B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/version.h */; };
+		D51A79B00A184AE18699F151 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CD14FC296A9E4F669967D4FB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */; };
+		E17A4A32773D4011983346FC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcids.h */ = {isa = PBXBuildFile; fileRef = FB707E7C5C044B02A642AE77 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcids.h */; };
+		EE5DBC0A904E4D08AA685F14 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 39220988D26A45159057774B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp */; };
+		EF4308C8DA4246E99BBDDD5A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = C3AECD067E7A42E19B55E893 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1385AEB0BF2847C58D31DE9A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E3EDD6D65C684A1ABE1B21B4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		836BBD5BB7674CAFB71FDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EA2DE4C6A64C5C8F38BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC1F2B636050F2FB1774931;
+			remoteInfo = "remap-paramid";
+		};
+		B6FC6EF8CF3343B5A7632634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EA2DE4C6A64C5C8F38BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		D4A1769D159944AC96CE62B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EA2DE4C6A64C5C8F38BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		158DF744C121405BB1A37143 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/README.md */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		192A6329F8984B339FD23922 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = remapparamidcontroller.h; path = source/remapparamidcontroller.h; sourceTree = SOURCE_ROOT; };
+		39220988D26A45159057774B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remapparamidcontroller.cpp; path = source/remapparamidcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		568EE5C95CE743C7BB907F14 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7712C710819C4874904B093F /* remap-paramid */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "remap-paramid.bundle/Contents/MacOS/remap-paramid"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4AC82CFABF46A19D83DC9B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		A9914BA26F95418E8C42E61D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remapparamidprocessor.cpp; path = source/remapparamidprocessor.cpp; sourceTree = SOURCE_ROOT; };
+		C3AECD067E7A42E19B55E893 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		CD14FC296A9E4F669967D4FB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CE30168394B846649834BE01 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = remapparamidprocessor.h; path = source/remapparamidprocessor.h; sourceTree = SOURCE_ROOT; };
+		F5FF745916E348FB84EBB139 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remapparamidentry.cpp; path = source/remapparamidentry.cpp; sourceTree = SOURCE_ROOT; };
+		FB707E7C5C044B02A642AE77 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = remapparamidcids.h; path = source/remapparamidcids.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9959E61FDD4B0E9F38C413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C90D6072654A42A38A8090 /* remap-paramid */ = {
+			isa = PBXGroup;
+			children = (
+				889A1472DAC8428B8E5BB141 /* Header Files */,
+				C20FCBF308E04D05B96297ED /* Source Files */,
+				CD14FC296A9E4F669967D4FB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */,
+				158DF744C121405BB1A37143 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/README.md */,
+			);
+			name = "remap-paramid";
+			sourceTree = "<group>";
+		};
+		1EFB63E16EE8404C8D38E09E /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				11C90D6072654A42A38A8090 /* remap-paramid */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		52DCB77BE519471798065D94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7066161169D34D3B9FD09358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		711BDC7516E94EAF9E20CDD8 = {
+			isa = PBXGroup;
+			children = (
+				1EFB63E16EE8404C8D38E09E /* PlugIn-Examples */,
+				F20B876060324C97B12FB998 /* ALL_BUILD */,
+				A47484A0068742A3B66E38A4 /* Products */,
+				7066161169D34D3B9FD09358 /* Frameworks */,
+				52DCB77BE519471798065D94 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		889A1472DAC8428B8E5BB141 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB707E7C5C044B02A642AE77 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcids.h */,
+				192A6329F8984B339FD23922 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.h */,
+				CE30168394B846649834BE01 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.h */,
+				9C4AC82CFABF46A19D83DC9B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A47484A0068742A3B66E38A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7712C710819C4874904B093F /* remap-paramid */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8ED174E1B2F49288EF9CDCB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C20FCBF308E04D05B96297ED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				39220988D26A45159057774B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp */,
+				F5FF745916E348FB84EBB139 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidentry.cpp */,
+				A9914BA26F95418E8C42E61D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.cpp */,
+				C3AECD067E7A42E19B55E893 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F20B876060324C97B12FB998 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B8ED174E1B2F49288EF9CDCB /* CMake Rules */,
+				568EE5C95CE743C7BB907F14 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC1F2B636050F2FB1774931 /* remap-paramid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943243CB8E8349DFA8DA3975 /* Build configuration list for PBXNativeTarget "remap-paramid" */;
+			buildPhases = (
+				EAFD003AF39E9C31A8586195 /* CMake PreBuild Rules */,
+				0629B131BF164F6196C8758F /* Sources */,
+				AE9959E61FDD4B0E9F38C413 /* Frameworks */,
+				7CC5C7246D9DA7830C2BBFD7 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D866C9420B6B4686AD9C3161 /* PBXTargetDependency */,
+			);
+			name = "remap-paramid";
+			productName = "remap-paramid";
+			productReference = 7712C710819C4874904B093F /* remap-paramid */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87EA2DE4C6A64C5C8F38BBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = BDD4A2A3C2FA44789B2C8757 /* Build configuration list for PBXProject "smtg-vst3-remapparamid" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1385AEB0BF2847C58D31DE9A /* Debug */,
+				E3EDD6D65C684A1ABE1B21B4 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 711BDC7516E94EAF9E20CDD8;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				7CC1F2B636050F2FB1774931 /* remap-paramid */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141381D9DE0F534732E4ACD6 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7CC5C7246D9DA7830C2BBFD7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3 -compat /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/resource/vst_compatibility.json -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3 -compat /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/resource/vst_compatibility.json -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		82A162845FADA2BBC82281E6 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EAFD003AF39E9C31A8586195 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/remap-paramid.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/remap-paramid.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0629B131BF164F6196C8758F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5DBC0A904E4D08AA685F14 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidcontroller.cpp */,
+				43782612E0034A5B95457A0D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidentry.cpp */,
+				12B127C4EDFD4584958D3966 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/remap_paramid/source/remapparamidprocessor.cpp */,
+				EF4308C8DA4246E99BBDDD5A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C29AFF143174050BAD51C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC1F2B636050F2FB1774931 /* remap-paramid */;
+			targetProxy = 836BBD5BB7674CAFB71FDC68 /* PBXContainerItemProxy */;
+		};
+		D722BA5206D64123B10FCC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = B6FC6EF8CF3343B5A7632634 /* PBXContainerItemProxy */;
+		};
+		D866C9420B6B4686AD9C3161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = D4A1769D159944AC96CE62B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20A1DCC610F84894AF04DD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		28F22E54A3AE4010B2A9A55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",remap_paramid_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeFiles/remap-paramid.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.remap-paramid";
+				PRODUCT_NAME = "remap-paramid";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/remap-paramid.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		2E0792659EFA4120B2DB2589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		52EB711300BB4DE1B8EB1869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",remap_paramid_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/remap_paramid/CMakeFiles/remap-paramid.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.remap-paramid";
+				PRODUCT_NAME = "remap-paramid";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/remap-paramid.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		6F7C884AD8084D20B76854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BD422F2302B64887A535C8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CF7E23275F5544E6AFB8DE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DBD4446D0AB84DC7B3C5BD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592028C4C02C4C32839DCA57 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A1DCC610F84894AF04DD47 /* Debug */,
+				BD422F2302B64887A535C8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6915957A69104A179447876A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7C884AD8084D20B76854F8 /* Debug */,
+				CF7E23275F5544E6AFB8DE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		943243CB8E8349DFA8DA3975 /* Build configuration list for PBXNativeTarget "remap-paramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EB711300BB4DE1B8EB1869 /* Debug */,
+				28F22E54A3AE4010B2A9A55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDD4A2A3C2FA44789B2C8757 /* Build configuration list for PBXProject "smtg-vst3-remapparamid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD4446D0AB84DC7B3C5BD66 /* Debug */,
+				2E0792659EFA4120B2DB2589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87EA2DE4C6A64C5C8F38BBEE /* Project object */;
+}

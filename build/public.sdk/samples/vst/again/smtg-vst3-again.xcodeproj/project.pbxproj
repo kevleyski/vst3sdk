@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		620D981598860FC9FB72A031 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3AFBB3AF076048BDB114DEAC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3A3A6C01D2BE1BCCFF304D0A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9634DDEB03D1300237E935E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6931AC68D52D488F88170EC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3CFD8BD4D501AE43E6D04060 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				E8F0BD4B95D9417BBF92C4D8 /* PBXTargetDependency */,
+				D4F261273B234014948D8CF9 /* PBXTargetDependency */,
+				08DD3FCE3C86412999DA90EA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03560C5D208F4DAEADF4EA5B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXBuildFile; fileRef = 577FC4DD1F2342DE9D8A95F5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */; };
+		08F2920F56974BFF929FA691 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXBuildFile; fileRef = 46194BF6E1504777923677CA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */; };
+		0CBD38A0AD744465A8C3AEC2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC972A5E66BD47D9A38FC161 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		1F8F5364A69B4322921E6494 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = F3D09F877C0E4FDD8C5E6562 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		237C1AA28D944C2BAE10EAC1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = BD0FF7548AFD4D15A9A93B57 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+		32843B6D83454542A2E4772C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXBuildFile; fileRef = D92A36D3FA094BA4B1FEB00A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */; };
+		36DD5C77E01F496C84FBEEFC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXBuildFile; fileRef = FA1C86A6991A416F81CD9EE1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */; };
+		3C73DA6DF5CC4E5894B56BB5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXBuildFile; fileRef = 6B3A0288D2D84D4296123E41 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */; };
+		3DEDDAD4273945419532225A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXBuildFile; fileRef = 7E3CF7F76C024A1CB7122032 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */; };
+		3E670C9AE61948369082161A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 7C9ED67283A941FFAFC365AF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		5B5E74366D5E4BFD8C2D3772 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXBuildFile; fileRef = 72AD01C363874F7B9CAF354B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */; };
+		6783614A085C49C0BBB454E0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = 6CA67157BC2647B8AE4E00CF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */; };
+		69BCC9B814F240A98BD88871 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D15EB674BBF94BBAAE051B9F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */; };
+		7320614402EB4B61AA0683F1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 8DE0EA54379349A9885022BF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		783EC10E966248D7ADFED87A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = 7FC43F1FCA0147E7801CF4EC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		91C0D12B32214CBEB1B020E0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = 9FA6586295804DBBAFFFC87B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		97BCC60941B64C02837991A2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXBuildFile; fileRef = 9287277FA6254895B395AD99 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */; };
+		9CA122B7DB2043BE9B4C81C9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = 06A97C5CBAE948E39CAAB115 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		A1B2503C7DFF449A8BF794E5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXBuildFile; fileRef = A2FF72BAC79C4EE4813DEF4A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */; };
+		A599F12332EE44A8B7A53578 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXBuildFile; fileRef = 2FA116D562874938A7559DEE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */; };
+		A72DC4A9F96945CF880D7FF3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = F32759CB97DC4B55BC2AD6A3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+		AE4850706D904F1ABF01A58A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 8BF20834ED874035A86A2BB0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		B117BA42E2A14D0AA8B87F0C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXBuildFile; fileRef = 3D9DB36B24074EAA81576D33 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */; };
+		B6F4BC2EB67447DE82AC651E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXBuildFile; fileRef = 27949D24628C477F85D44E31 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */; };
+		B87DF858BB9445B0B71513A1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXBuildFile; fileRef = 0A0EB61CA24844DD84008711 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */; };
+		B8BC09D541DB49DD890A48C5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXBuildFile; fileRef = BDB2CF52739745BB8C363A47 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */; };
+		C0994352CEBB42D1B8E3565E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXBuildFile; fileRef = 2BBC94E015B349D7810CDEB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */; };
+		D24D52B7F4DA45B3B2D978E2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXBuildFile; fileRef = F925271A88A14D3985D677AD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */; };
+		D416F3CE63AC4E128142BBC1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXBuildFile; fileRef = 70A197F32B254ECF96DC017D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.h */; };
+		D47C78BA8CC14CE09D4BA802 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXBuildFile; fileRef = 8872CC83F56940BAB0500AAC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */; };
+		DC397ECBE08E4A6FA8292F45 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXBuildFile; fileRef = 165032C6E7E54BE584F77E32 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */; };
+		E23DCED47E01419D9E1C45FC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXBuildFile; fileRef = 25A8BFFC675B43DDBEB447EA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */; };
+		E39ED37116F944FD82A7A486 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXBuildFile; fileRef = EDFE9235D3804926AD23C6A5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */; };
+		E639F9BAA44841A587AD6B49 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = EFBDE57710BE4465BCB07417 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		E77EDCCD352B4615BC3A3996 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXBuildFile; fileRef = 3CA1C311746B44A3B5F42700 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */; };
+		EB184209638A460B86F748B9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXBuildFile; fileRef = 3B20946ABFD74AD88299BB83 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */; };
+		F20AE71275EA4681A947624A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXBuildFile; fileRef = 5CB15DF01DC14608BBA68CC6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */; };
+		F4943B3549E44A4DB3A37D07 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXBuildFile; fileRef = 637782902D5A4E6B8F0C781A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */; };
+		F67E95B7B24E4B1DB47908CB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 802CDC6FCB26443D948425B2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */; };
+		FD3DB673AF774E6AB1AF96E9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXBuildFile; fileRef = 6A92CCB252384EE1B0A86FD5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4816760ED4D74B64B4BCF7EC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D00A68E112E1444387154F5E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		358AA67BA45143F1B2DED476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF562626324EDE904C1FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		6A5C6AEA6AB04661AF9EAF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF562626324EDE904C1FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		C2C34D2F626A4846B616E390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF562626324EDE904C1FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956B06233F9002CEB6D18D38;
+			remoteInfo = again;
+		};
+		E74302A6209E4CA78F8148F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF562626324EDE904C1FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620D981598860FC9FB72A031;
+			remoteInfo = ZERO_CHECK;
+		};
+		EFA44371FDF948AF8DF34F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF562626324EDE904C1FA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC74FC98C14533086325485;
+			remoteInfo = "again-simple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A97C5CBAE948E39CAAB115 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		0A0EB61CA24844DD84008711 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		165032C6E7E54BE584F77E32 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstsinglecomponenteffect.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp; sourceTree = "<absolute>"; };
+		25A8BFFC675B43DDBEB447EA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		27949D24628C477F85D44E31 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		2BBC94E015B349D7810CDEB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstsinglecomponenteffect.h; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h; sourceTree = "<absolute>"; };
+		2FA116D562874938A7559DEE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		3B20946ABFD74AD88299BB83 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againentry.cpp; path = source/againentry.cpp; sourceTree = SOURCE_ROOT; };
+		3CA1C311746B44A3B5F42700 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcids.h; path = source/againcids.h; sourceTree = SOURCE_ROOT; };
+		3D9DB36B24074EAA81576D33 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle_2.0x.png; path = resource/slider_handle_2.0x.png; sourceTree = SOURCE_ROOT; };
+		46194BF6E1504777923677CA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsidechain.h; path = source/againsidechain.h; sourceTree = SOURCE_ROOT; };
+		577FC4DD1F2342DE9D8A95F5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againcontroller.h; path = source/againcontroller.h; sourceTree = SOURCE_ROOT; };
+		5CB15DF01DC14608BBA68CC6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		637782902D5A4E6B8F0C781A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		6A92CCB252384EE1B0A86FD5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		6B3A0288D2D84D4296123E41 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = again.cpp; path = source/again.cpp; sourceTree = SOURCE_ROOT; };
+		6CA67157BC2647B8AE4E00CF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png; sourceTree = SOURCE_ROOT; };
+		70A197F32B254ECF96DC017D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = again.h; path = source/again.h; sourceTree = SOURCE_ROOT; };
+		72AD01C363874F7B9CAF354B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againuimessagecontroller.h; path = source/againuimessagecontroller.h; sourceTree = SOURCE_ROOT; };
+		7C9ED67283A941FFAFC365AF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macmain.cpp; path = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp; sourceTree = "<absolute>"; };
+		7E3CF7F76C024A1CB7122032 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 84E8DE5F92554F5396FAE4133C935A18_snapshot.png; path = resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png; sourceTree = SOURCE_ROOT; };
+		7FC43F1FCA0147E7801CF4EC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		802CDC6FCB26443D948425B2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againcontroller.cpp; path = source/againcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		8872CC83F56940BAB0500AAC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		8BF20834ED874035A86A2BB0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_on.png; path = resource/vu_on.png; sourceTree = SOURCE_ROOT; };
+		8DE0EA54379349A9885022BF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = background.png; path = resource/background.png; sourceTree = SOURCE_ROOT; };
+		9287277FA6254895B395AD99 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = 41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; path = resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png; sourceTree = SOURCE_ROOT; };
+		981EEE90B430417582E0933D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9FA6586295804DBBAFFFC87B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		A2FF72BAC79C4EE4813DEF4A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againparamids.h; path = source/againparamids.h; sourceTree = SOURCE_ROOT; };
+		ADDB7C48D20645F8BA187F13 /* again */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = again.bundle/Contents/MacOS/again; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0FF7548AFD4D15A9A93B57 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = again.uidesc; path = resource/again.uidesc; sourceTree = SOURCE_ROOT; };
+		BDB2CF52739745BB8C363A47 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsidechain.cpp; path = source/againsidechain.cpp; sourceTree = SOURCE_ROOT; };
+		D15EB674BBF94BBAAE051B9F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D92A36D3FA094BA4B1FEB00A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = againsimple.cpp; path = source/againsimple.cpp; sourceTree = SOURCE_ROOT; };
+		DC972A5E66BD47D9A38FC161 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DD7775D1D7234A2198EA45F6 /* again-simple */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; path = "again-simple.bundle/Contents/MacOS/again-simple"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE9235D3804926AD23C6A5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againprocess.h; path = source/againprocess.h; sourceTree = SOURCE_ROOT; };
+		EFBDE57710BE4465BCB07417 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_background.png; path = resource/slider_background.png; sourceTree = SOURCE_ROOT; };
+		F32759CB97DC4B55BC2AD6A3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = vu_off.png; path = resource/vu_off.png; sourceTree = SOURCE_ROOT; };
+		F3D09F877C0E4FDD8C5E6562 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = slider_handle.png; path = resource/slider_handle.png; sourceTree = SOURCE_ROOT; };
+		F925271A88A14D3985D677AD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = source/version.h; sourceTree = SOURCE_ROOT; };
+		FA1C86A6991A416F81CD9EE1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = againsimple.h; path = source/againsimple.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035B543EC7414606A3132051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AD9A404A09457DBA7EEE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EEF0A232444D25B1B8F4A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17A3C235517041FE91BDE8CB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AA46E4EF29774B89BD10E06A /* CMake Rules */,
+				981EEE90B430417582E0933D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2AA9010568254E8C95AC0A4B /* again */ = {
+			isa = PBXGroup;
+			children = (
+				8DD7BACDD14A4983A23CCEA6 /* Source Files */,
+				9EAA1A94687F438590EB5347 /* Header Files */,
+				527D4C7C76AB430B966AFFA8 /* Resources */,
+				DC972A5E66BD47D9A38FC161 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				BD0FF7548AFD4D15A9A93B57 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = again;
+			sourceTree = "<group>";
+		};
+		3193448D60604E3A82B503DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92A36D3FA094BA4B1FEB00A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				0A0EB61CA24844DD84008711 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				165032C6E7E54BE584F77E32 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3550EDD4581746C5991C5743 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27949D24628C477F85D44E31 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				637782902D5A4E6B8F0C781A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				8872CC83F56940BAB0500AAC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				3D9DB36B24074EAA81576D33 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				5CB15DF01DC14608BBA68CC6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				25A8BFFC675B43DDBEB447EA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		527D4C7C76AB430B966AFFA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9287277FA6254895B395AD99 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				6CA67157BC2647B8AE4E00CF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				7E3CF7F76C024A1CB7122032 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				2FA116D562874938A7559DEE /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+				8DE0EA54379349A9885022BF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				EFBDE57710BE4465BCB07417 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				F3D09F877C0E4FDD8C5E6562 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				06A97C5CBAE948E39CAAB115 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				F32759CB97DC4B55BC2AD6A3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				8BF20834ED874035A86A2BB0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		776506645A0641B39D683D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB7C48D20645F8BA187F13 /* again */,
+				DD7775D1D7234A2198EA45F6 /* again-simple */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC33C2A24DA4E1E940C6C6B /* again-simple */ = {
+			isa = PBXGroup;
+			children = (
+				3193448D60604E3A82B503DF /* Source Files */,
+				CCBBFB96BC644318BF68B555 /* Header Files */,
+				3550EDD4581746C5991C5743 /* Resources */,
+				D15EB674BBF94BBAAE051B9F /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/CMakeLists.txt */,
+				6A92CCB252384EE1B0A86FD5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+			);
+			name = "again-simple";
+			sourceTree = "<group>";
+		};
+		8DD7BACDD14A4983A23CCEA6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A0288D2D84D4296123E41 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				802CDC6FCB26443D948425B2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				3B20946ABFD74AD88299BB83 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				BDB2CF52739745BB8C363A47 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				7C9ED67283A941FFAFC365AF /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9EAA1A94687F438590EB5347 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A197F32B254ECF96DC017D /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.h */,
+				3CA1C311746B44A3B5F42700 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcids.h */,
+				577FC4DD1F2342DE9D8A95F5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.h */,
+				7FC43F1FCA0147E7801CF4EC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				EDFE9235D3804926AD23C6A5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againprocess.h */,
+				46194BF6E1504777923677CA /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.h */,
+				72AD01C363874F7B9CAF354B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againuimessagecontroller.h */,
+				F925271A88A14D3985D677AD /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A14FA3E9347044A087B54132 = {
+			isa = PBXGroup;
+			children = (
+				C5F31227056849E598E1AB8A /* PlugIn-Examples */,
+				17A3C235517041FE91BDE8CB /* ALL_BUILD */,
+				776506645A0641B39D683D0C /* Products */,
+				14EEF0A232444D25B1B8F4A2 /* Frameworks */,
+				DCF2C0F48B214627AF7F1072 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		AA46E4EF29774B89BD10E06A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C5F31227056849E598E1AB8A /* PlugIn-Examples */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9010568254E8C95AC0A4B /* again */,
+				7BC33C2A24DA4E1E940C6C6B /* again-simple */,
+			);
+			name = "PlugIn-Examples";
+			sourceTree = "<group>";
+		};
+		CCBBFB96BC644318BF68B555 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF72BAC79C4EE4813DEF4A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againparamids.h */,
+				FA1C86A6991A416F81CD9EE1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.h */,
+				9FA6586295804DBBAFFFC87B /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/version.h */,
+				2BBC94E015B349D7810CDEB6 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DCF2C0F48B214627AF7F1072 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956B06233F9002CEB6D18D38 /* again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACFD7E57FA4466F9888A518 /* Build configuration list for PBXNativeTarget "again" */;
+			buildPhases = (
+				90D796569263D36E62657D41 /* CMake PreBuild Rules */,
+				BBC989E7086C4A479A1C0A86 /* Resources */,
+				D713F63F4DD1441080848392 /* Copy files */,
+				4ED326C628424CD28C4405DB /* Sources */,
+				035B543EC7414606A3132051 /* Frameworks */,
+				8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C3B81AF0D3420697DDB6A8 /* PBXTargetDependency */,
+			);
+			name = again;
+			productName = again;
+			productReference = ADDB7C48D20645F8BA187F13 /* again */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EFC74FC98C14533086325485 /* again-simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9174CEA69A8347C485A123FD /* Build configuration list for PBXNativeTarget "again-simple" */;
+			buildPhases = (
+				5564E220414F70B0B7826496 /* CMake PreBuild Rules */,
+				2066A8483555442888EF57D2 /* Resources */,
+				C87096A7A0D64F7499A0ABCB /* Sources */,
+				62AD9A404A09457DBA7EEE50 /* Frameworks */,
+				CA421350384D5F1FEF5976BF /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF5286476D746928B92E0E5 /* PBXTargetDependency */,
+			);
+			name = "again-simple";
+			productName = "again-simple";
+			productReference = DD7775D1D7234A2198EA45F6 /* again-simple */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8EF562626324EDE904C1FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = BE58DA9497B64F7396A6F309 /* Build configuration list for PBXProject "smtg-vst3-again" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D00A68E112E1444387154F5E /* Debug */,
+				4816760ED4D74B64B4BCF7EC /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A14FA3E9347044A087B54132;
+			projectDirPath = /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again;
+			projectRoot = "";
+			targets = (
+				9634DDEB03D1300237E935E8 /* ALL_BUILD */,
+				956B06233F9002CEB6D18D38 /* again */,
+				EFC74FC98C14533086325485 /* again-simple */,
+				620D981598860FC9FB72A031 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3A6C01D2BE1BCCFF304D0A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  make -f /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3CFD8BD4D501AE43E6D04060 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5564E220414F70B0B7826496 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8869A5FC80D3DDB3F4FE8C6B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		90D796569263D36E62657D41 /* CMake PreBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PreBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again.vst3/Contents/Resources
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again.vst3/Contents/Resources
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA421350384D5F1FEF5976BF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Debug/validator /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3 
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug/again-simple.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  codesign --force --verbose --sign - /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/moduleinfotool -create -version 3.7.13.0 -path /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3 -output /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  codesign -f -s - -v /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator started...
+  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/bin/Release/validator  /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3
+  /opt/homebrew/bin/cmake -E echo [SMTG] Validator finished.
+  cd /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again
+  /opt/homebrew/bin/cmake -E make_directory /Users/klambert/Library/Audio/Plug-Ins/VST3
+  ln -svfF /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release/again-simple.vst3 /Users/klambert/Library/Audio/Plug-Ins/VST3
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2066A8483555442888EF57D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3DB673AF774E6AB1AF96E9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				B6F4BC2EB67447DE82AC651E /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				F4943B3549E44A4DB3A37D07 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				D47C78BA8CC14CE09D4BA802 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				B117BA42E2A14D0AA8B87F0C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				F20AE71275EA4681A947624A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				E23DCED47E01419D9E1C45FC /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC989E7086C4A479A1C0A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237C1AA28D944C2BAE10EAC1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc */,
+				7320614402EB4B61AA0683F1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/background.png */,
+				E639F9BAA44841A587AD6B49 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png */,
+				1F8F5364A69B4322921E6494 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png */,
+				9CA122B7DB2043BE9B4C81C9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png */,
+				A72DC4A9F96945CF880D7FF3 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png */,
+				AE4850706D904F1ABF01A58A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED326C628424CD28C4405DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73DA6DF5CC4E5894B56BB5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/again.cpp */,
+				F67E95B7B24E4B1DB47908CB /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againcontroller.cpp */,
+				EB184209638A460B86F748B9 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againentry.cpp */,
+				B8BC09D541DB49DD890A48C5 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsidechain.cpp */,
+				3E670C9AE61948369082161A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87096A7A0D64F7499A0ABCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32843B6D83454542A2E4772C /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/source/againsimple.cpp */,
+				B87DF858BB9445B0B71513A1 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/main/macmain.cpp */,
+				DC397ECBE08E4A6FA8292F45 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/source/vst/vstsinglecomponenteffect.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D713F63F4DD1441080848392 /* Copy files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Snapshots;
+			dstSubfolderSpec = 7;
+			files = (
+				97BCC60941B64C02837991A2 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot.png */,
+				6783614A085C49C0BBB454E0 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/41347FD6FED64094AFBB12B7DBA1D441_snapshot_2.0x.png */,
+				3DEDDAD4273945419532225A /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot.png */,
+				A599F12332EE44A8B7A53578 /* /Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst/again/resource/84E8DE5F92554F5396FAE4133C935A18_snapshot_2.0x.png */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08DD3FCE3C86412999DA90EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 6A5C6AEA6AB04661AF9EAF1B /* PBXContainerItemProxy */;
+		};
+		4AF5286476D746928B92E0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = 358AA67BA45143F1B2DED476 /* PBXContainerItemProxy */;
+		};
+		57C3B81AF0D3420697DDB6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620D981598860FC9FB72A031 /* ZERO_CHECK */;
+			targetProxy = E74302A6209E4CA78F8148F2 /* PBXContainerItemProxy */;
+		};
+		D4F261273B234014948D8CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC74FC98C14533086325485 /* again-simple */;
+			targetProxy = EFA44371FDF948AF8DF34F00 /* PBXContainerItemProxy */;
+		};
+		E8F0BD4B95D9417BBF92C4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956B06233F9002CEB6D18D38 /* again */;
+			targetProxy = C2C34D2F626A4846B616E390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E0F41A49CB84F53AD04AFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_simple_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/again-simple.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
+				PRODUCT_NAME = "again-simple";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/again-simple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		38D9FAA0CED340F595642952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_simple_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/again-simple.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steinberg.vst3.again-simple";
+				PRODUCT_NAME = "again-simple";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/again-simple.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		438435EFA2D04D2B8CF7BF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		45ABB653C1A64DE3B0A6BFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Debug;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_EXPORTS,VSTGUI_LIVE_EDITING,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/again.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DDEVELOPMENT=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libpluginterfaces.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Debug/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.again;
+				PRODUCT_NAME = again;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/again.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		5791E30577E942C78521A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		93B3860077F947B4BB73A3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/VST3/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",again_EXPORTS,"'VSTGUI_ENABLE_DEPRECATED_METHODS=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (/Users/klambert/workspace/github_kevleyski/vst3sdk,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again,/Users/klambert/workspace/github_kevleyski/vst3sdk/public.sdk/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/base/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/pluginterfaces/..,/Users/klambert/workspace/github_kevleyski/vst3sdk/vstgui4,"$(inherited)");
+				INFOPLIST_FILE = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/again/CMakeFiles/again.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fPIC -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' -Wno-unused-but-set-variable '-DRELEASE=1' '-stdlib=libc++' ";
+				OTHER_LDFLAGS = ("-Xlinker -adhoc_codesign -bundle -Wl,-headerpad_max_install_names","-framework CoreFoundation",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_support.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libsdk_common.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libpluginterfaces.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libbase.a,/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui.a,"-framework Cocoa","-framework QuartzCore","-framework Accelerate","-framework OpenGL",/Users/klambert/workspace/github_kevleyski/vst3sdk/build/lib/Release/libvstgui_uidescription.a,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinberg.vst3.again;
+				PRODUCT_NAME = again;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/build/again.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		94F902BE687A463D852F6418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BCCA24DEFE7F4862A6A721EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Release;
+		};
+		D06CE49B951D47EAA20E7071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk;
+				SYMROOT = /Users/klambert/workspace/github_kevleyski/vst3sdk/build/build;
+			};
+			name = Debug;
+		};
+		D10AF3227754476CAAA7B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFBB3AF076048BDB114DEAC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10AF3227754476CAAA7B574 /* Debug */,
+				5791E30577E942C78521A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6931AC68D52D488F88170EC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F902BE687A463D852F6418 /* Debug */,
+				438435EFA2D04D2B8CF7BF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6ACFD7E57FA4466F9888A518 /* Build configuration list for PBXNativeTarget "again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABB653C1A64DE3B0A6BFC1 /* Debug */,
+				93B3860077F947B4BB73A3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9174CEA69A8347C485A123FD /* Build configuration list for PBXNativeTarget "again-simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0F41A49CB84F53AD04AFED /* Debug */,
+				38D9FAA0CED340F595642952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE58DA9497B64F7396A6F309 /* Build configuration list for PBXProject "smtg-vst3-again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06CE49B951D47EAA20E7071 /* Debug */,
+				BCCA24DEFE7F4862A6A721EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8EF562626324EDE904C1FA0 /* Project object */;
+}

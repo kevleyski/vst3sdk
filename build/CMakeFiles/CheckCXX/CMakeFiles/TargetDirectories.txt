@@ -1,0 +1,2 @@
+/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/CMakeFiles/CheckCXX/CMakeFiles/ALL_BUILD.dir
+/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/CMakeFiles/CheckCXX/CMakeFiles/ZERO_CHECK.dir

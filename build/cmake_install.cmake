@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/KJSL/workspace/github_kevleyski/vst3sdk
+# Install script for directory: /Users/klambert/workspace/github_kevleyski/vst3sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,57 +37,57 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build")
+set(CMAKE_BINARY_DIR "/Users/klambert/workspace/github_kevleyski/vst3sdk/build")
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/VSTGUI.build/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/VSTGUI.build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/pluginterfaces/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/pluginterfaces/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/base/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/base/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/source/vst/interappaudio/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/source/vst/interappaudio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst-hosting/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst-hosting/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst-utilities/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst-utilities/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/samples/vst/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/public.sdk/source/vst/auv3wrapper/cmake_install.cmake")
+  include("/Users/klambert/workspace/github_kevleyski/vst3sdk/build/public.sdk/source/vst/auv3wrapper/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/install_local_manifest.txt"
+  file(WRITE "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -103,6 +103,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/KJSL/workspace/github_kevleyski/vst3sdk/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/klambert/workspace/github_kevleyski/vst3sdk/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

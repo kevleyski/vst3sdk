@@ -1,0 +1,24 @@
+dependencies: \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macpreference.mm \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macpreference.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/ipreference.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/fwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/cstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/vstguifwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/vstguidebug.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/optional.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/platform/iplatformstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/../../lib/platform/../vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../include/interface.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/macutilities.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/macstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../iplatformstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../../cstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/cfontmac.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../iplatformfont.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../../vstguifwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../platformfactory.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../platformfwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../../vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/source/platform/mac/../../../../lib/platform/mac/../../ccolor.h

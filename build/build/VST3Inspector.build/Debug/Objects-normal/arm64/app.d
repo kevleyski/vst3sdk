@@ -1,0 +1,26 @@
+dependencies: \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/source/app.cpp \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/appdelegate.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../appinit.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../iappdelegate.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../fwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/cstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguifwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/vstguidebug.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/optional.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/platform/iplatformstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/platform/../vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../interface.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/windowlistener.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../iwindowlistener.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/helpers/../../../lib/cpoint.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iapplication.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/fwd.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/iwindow.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/crect.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/vstguibase.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/cpoint.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/../../lib/cstring.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/vstgui4/vstgui/standalone/include/interface.h \
+  /Volumes/KJSL/workspace/github_kevleyski/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/source/window.h
