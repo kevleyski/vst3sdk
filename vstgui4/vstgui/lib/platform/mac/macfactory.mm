@@ -157,7 +157,7 @@ PlatformResourceInputStreamPtr
 {
 	if (desc.type == CResourceDescription::kIntegerType)
 		return nullptr;
-	if (auto bundle = getBundleRef ())
+	if (getBundleRef ())
 	{
 		PlatformResourceInputStreamPtr result;
 		CFStringRef cfStr = CFStringCreateWithCString (nullptr, desc.u.name, kCFStringEncodingUTF8);

@@ -978,8 +978,9 @@ CView* CFrame::getModalView () const
 //-----------------------------------------------------------------------------
 void CFrame::initModalViewSession (const ModalViewSession& session)
 {
-	if (auto view = getMouseDownView ())
+	if (getMouseDownView ())
 	{
+		
 		onMouseCancel ();
 	}
 	clearMouseViews (CPoint (0, 0), Modifiers (), true);
