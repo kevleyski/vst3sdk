@@ -199,7 +199,7 @@ struct DataExchangeController : EditController,
 					           currentAudioBufferData.peak.end (), PeakValue ());
 				}
 
-				auto sampleCounter = 0;
+				uint32 sampleCounter = 0;
 				while (sampleCounter < data.numSamples)
 				{
 					auto numSamples =
@@ -264,7 +264,7 @@ struct DataExchangeController : EditController,
 			if (tag == UITagDisplayFreq)
 			{
 				auto value = uiOnlyParameters[UITagDisplayFreq]->toPlain (valueNormalized);
-				pixelsPerMillisecond = value;
+				pixelsPerMillisecond = static_cast<float> (value);
 			}
 			else if (tag == UITagForceMessageHandling)
 			{

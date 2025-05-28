@@ -35,8 +35,11 @@
 //-----------------------------------------------------------------------------
 
 #include "module.h"
-#include "../utility/optional.h"
-#include "../utility/stringconvert.h"
+#include "public.sdk/source/vst/utility/optional.h"
+#include "public.sdk/source/vst/utility/stringconvert.h"
+
+#include "pluginterfaces/base/funknownimpl.h"
+
 #include <algorithm>
 #include <dlfcn.h>
 #include <sys/types.h>
@@ -62,12 +65,12 @@
 #include <experimental/filesystem>
 namespace filesystem = std::experimental::filesystem;
 
-#else // USE_FILESYSTEM == 0
+#else // USE_EXPERIMENTAL_FS == 0
 
 #include <filesystem>
 namespace filesystem = std::filesystem;
 
-#endif // USE_FILESYSTEM
+#endif // USE_EXPERIMENTAL_FS
 
 //------------------------------------------------------------------------
 extern "C" {
@@ -164,8 +167,8 @@ public:
 		if (!filesystem::is_directory (modulePath))
 			return {};
 
-		stem.replace_extension (".so");
 		modulePath /= stem;
+		modulePath += ".so";
 		return Optional<Path> (std::move (modulePath));
 	}
 
@@ -215,7 +218,7 @@ public:
 			errorDescription = "Calling 'ModuleEntry' failed";
 			return false;
 		}
-		auto f = Steinberg::FUnknownPtr<Steinberg::IPluginFactory> (owned (factoryProc ()));
+		auto f = Steinberg::U::cast<Steinberg::IPluginFactory> (owned (factoryProc ()));
 		if (!f)
 		{
 			errorDescription = "Calling 'GetPluginFactory' returned nullptr";
@@ -362,6 +365,45 @@ Optional<std::string> Module::getModuleInfoPath (const std::string& modulePath)
 	if (filesystem::exists (path))
 		return {path.generic_string ()};
 	return {};
+}
+
+//------------------------------------------------------------------------
+bool Module::validateBundleStructure (const std::string& modulePath, std::string& errorDescription)
+{
+	filesystem::path path (modulePath);
+	auto moduleName = path.filename ();
+
+	path /= "Contents";
+	if (filesystem::exists (path) == false)
+	{
+		errorDescription = "Expecting 'Contents' as first subfolder.";
+		return false;
+	}
+
+	auto machine = getCurrentMachineName ();
+	if (!machine)
+	{
+		errorDescription = "Could not get the current machine name.";
+		return false;
+	}
+
+	path /= *machine + "-linux";
+	if (filesystem::exists (path) == false)
+	{
+		errorDescription = "Expecting '" + *machine + "-linux' as architecture subfolder.";
+		return false;
+	}
+	moduleName.replace_extension (".so");
+	path /= moduleName;
+
+	if (filesystem::exists (path) == false)
+	{
+		errorDescription = "Shared library name is not equal to bundle folder name. Must be '" +
+		                   moduleName.string () + "'.";
+		return false;
+	}
+
+	return true;
 }
 
 //------------------------------------------------------------------------

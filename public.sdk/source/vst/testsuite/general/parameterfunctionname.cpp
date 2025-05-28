@@ -37,8 +37,10 @@
 
 #include "public.sdk/source/vst/testsuite/general/parameterfunctionname.h"
 #include "public.sdk/source/vst/utility/stringconvert.h"
+#include "pluginterfaces/base/funknownimpl.h"
 #include "pluginterfaces/vst/ivstparameterfunctionname.h"
 #include "pluginterfaces/vst/ivstunits.h"
+
 #include <unordered_map>
 
 //------------------------------------------------------------------------
@@ -67,7 +69,7 @@ bool PLUGIN_API ParameterFunctionNameTest::run (ITestResult* testResult)
 		return true;
 	}
 
-	FUnknownPtr<IParameterFunctionName> iParameterFunctionName (controller);
+	auto iParameterFunctionName = U::cast<IParameterFunctionName> (controller);
 	if (!iParameterFunctionName)
 	{
 		addMessage (testResult, STR ("No IParameterFunctionName support."));
@@ -116,7 +118,7 @@ bool PLUGIN_API ParameterFunctionNameTest::run (ITestResult* testResult)
 			paramIds[paramId] = i;
 	} // end for each parameter
 
-	FUnknownPtr<IUnitInfo> iUnitInfo2 (controller);
+	auto iUnitInfo2 = U::cast<IUnitInfo> (controller);
 	const CString arrayFunctionName[] = {FunctionNameType::kCompGainReduction,
 	                                     FunctionNameType::kCompGainReductionMax,
 	                                     FunctionNameType::kCompGainReductionPeakHold,

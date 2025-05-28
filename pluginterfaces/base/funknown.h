@@ -119,7 +119,8 @@ public:																			        \
 
 //------------------------------------------------------------------------
 #define FUNKNOWN_CTOR	{ __funknownRefCount = 1; }
-#if SMTG_FUNKNOWN_DTOR_ASSERT
+
+#if defined(SMTG_FUNKNOWN_DTOR_ASSERT) && SMTG_FUNKNOWN_DTOR_ASSERT
 #include <cassert>
 #define FUNKNOWN_DTOR { assert (__funknownRefCount == 0); }
 #else
@@ -313,11 +314,6 @@ public:
 	    \param string is the output string if not NULL. 
 	    \param stringBufferSize is the size of the output string  */
 	void print (int32 style, char8* string = nullptr, size_t stringBufferSize = 0) const;
-
-#if SMTG_CPP17
-	[[deprecated ("Use the print method with the buffer size")]]
-#endif
-	void print (char8* string = nullptr, int32 style = kINLINE_UID) const;
 
 	template <size_t N>
 	inline explicit FUID (const char (&uid)[N])

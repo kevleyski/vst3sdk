@@ -58,10 +58,6 @@ namespace Vst {
 // AGain Implementation
 //------------------------------------------------------------------------
 AGain::AGain ()
-: fGain (1.f)
-, fGainReduction (0.f)
-, fVuPPMOld (0.f)
-, currentProcessMode (-1) // -1 means not initialized
 {
 	// register its editor class (the same than used in againentry.cpp)
 	setControllerClass (AGainControllerUID);
@@ -254,7 +250,8 @@ tresult PLUGIN_API AGain::process (ProcessData& data)
 			if (data.symbolicSampleSize == kSample32)
 				fVuPPM = processVuPPM<Sample32> ((Sample32**)in, numChannels, data.numSamples);
 			else
-				fVuPPM = processVuPPM<Sample64> ((Sample64**)in, numChannels, data.numSamples);
+				fVuPPM = static_cast<float> (
+				    processVuPPM<Sample64> ((Sample64**)(in), numChannels, data.numSamples));
 		}
 		else
 		{
@@ -280,10 +277,10 @@ tresult PLUGIN_API AGain::process (ProcessData& data)
 			{
 				if (data.symbolicSampleSize == kSample32)
 					fVuPPM = processAudio<Sample32> ((Sample32**)in, (Sample32**)out, numChannels,
-						data.numSamples, gain);
+					                                 data.numSamples, gain);
 				else
-					fVuPPM = processAudio<Sample64> ((Sample64**)in, (Sample64**)out, numChannels,
-						data.numSamples, gain);
+					fVuPPM = static_cast<float> (processAudio<Sample64> (
+					    (Sample64**)in, (Sample64**)out, numChannels, data.numSamples, gain));
 			}
 		}
 	}
@@ -347,8 +344,7 @@ tresult PLUGIN_API AGain::setState (IBStream* state)
 		// we are in project loading context...
 
 		// Example of using the IStreamAttributes interface
-		FUnknownPtr<IStreamAttributes> stream (state);
-		if (stream)
+		if (auto stream = U::cast<IStreamAttributes> (state))
 		{
 			if (IAttributeList* list = stream->getAttributes ())
 			{

@@ -78,6 +78,18 @@ PlatformGraphicsDevicePtr CairoGraphicsDeviceFactory::addDevice (cairo_device_t*
 }
 
 //-----------------------------------------------------------------------------
+void CairoGraphicsDeviceFactory::removeDevice (cairo_device_t* device)
+{
+	const auto citer = std::find_if (impl->devices.cbegin (), impl->devices.cend (),
+									 [device] (const auto& dev) { return dev->get () == device; });
+
+	if (citer == impl->devices.cend ())
+		return;
+
+	impl->devices.erase (citer);
+}
+
+//-----------------------------------------------------------------------------
 struct CairoGraphicsDevice::Impl
 {
 	cairo_device_t* device;
@@ -96,7 +108,10 @@ CairoGraphicsDevice::CairoGraphicsDevice (cairo_device_t* device)
 CairoGraphicsDevice::~CairoGraphicsDevice () noexcept
 {
 	if (impl->device)
+	{
+		cairo_device_finish (impl->device);
 		cairo_device_destroy (impl->device);
+	}
 }
 
 //-----------------------------------------------------------------------------
@@ -624,8 +639,33 @@ bool CairoGraphicsDeviceContext::fillRadialGradient (IPlatformGraphicsPath& path
 	auto cairoPath = dynamic_cast<Cairo::GraphicsPath*> (&path);
 	if (!cairoPath)
 		return false;
-	// TODO: Implementation
-	return false;
+
+	auto cairoGradient = dynamic_cast<const Cairo::Gradient*> (&gradient);
+	if (!cairoGradient)
+		return false;
+	impl->doInContext ([&] () {
+		std::unique_ptr<Cairo::GraphicsPath> alignedPath;
+		if (impl->state.drawMode.integralMode ())
+		{
+			alignedPath = cairoPath->copyPixelAlign ([&] (CPoint p) {
+				p = pixelAlign (impl->state.tm, p);
+				return p;
+			});
+		}
+		auto p = alignedPath ? alignedPath->getCairoPath () : cairoPath->getCairoPath ();
+		cairo_append_path (impl->context, p);
+
+		const auto& radialGradient =
+			cairoGradient->getRadialGradient (center, radius, originOffset);
+		cairo_set_source (impl->context, radialGradient);
+		if (evenOdd)
+			cairo_set_fill_rule (impl->context, CAIRO_FILL_RULE_EVEN_ODD);
+
+		cairo_arc (impl->context, 0, 0, 0, 0., M_PI * 2.);
+		cairo_fill (impl->context);
+	});
+
+	return true;
 }
 
 //------------------------------------------------------------------------

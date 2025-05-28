@@ -38,133 +38,66 @@
 
 #pragma once
 
+#ifdef SMTG_AUWRAPPER_USES_AUSDK
+#if CA_USE_AUDIO_PLUGIN_ONLY
+#include "AudioUnitSDK/AUBase.h"
+#define AUWRAPPER_BASE_CLASS ausdk::AUBase
+#else
+#include "AudioUnitSDK/MusicDeviceBase.h"
+#define AUWRAPPER_BASE_CLASS ausdk::MusicDeviceBase
+#endif // CA_USE_AUDIO_PLUGIN_ONLY
+#else
 #if CA_USE_AUDIO_PLUGIN_ONLY
 #include "AudioUnits/AUPublic/AUBase/AUBase.h"
 #define AUWRAPPER_BASE_CLASS AUBase
 #else
 #include "AudioUnits/AUPublic/OtherBases/MusicDeviceBase.h"
 #define AUWRAPPER_BASE_CLASS MusicDeviceBase
-#endif
+#endif // CA_USE_AUDIO_PLUGIN_ONLY
+#endif // SMTG_AUWRAPPER_USES_AUSDK
 
 #include "public.sdk/source/vst/hosting/eventlist.h"
 #include "public.sdk/source/vst/hosting/parameterchanges.h"
 #include "public.sdk/source/vst/hosting/processdata.h"
+#include "public.sdk/source/vst/utility/ringbuffer.h"
+#include "public.sdk/source/vst/utility/rttransfer.h"
 #include "base/source/fstring.h"
 #include "base/source/timer.h"
 #include "base/thread/include/flock.h"
 #include "pluginterfaces/vst/ivstaudioprocessor.h"
 #include "pluginterfaces/vst/ivsteditcontroller.h"
+#include "pluginterfaces/vst/ivstmidilearn.h"
 #include "pluginterfaces/vst/ivstprocesscontext.h"
 #include "pluginterfaces/vst/ivstunits.h"
 
 #include <AudioToolbox/AudioToolbox.h>
 #include <Cocoa/Cocoa.h>
+#include <array>
 #include <map>
+#include <unordered_map>
 #include <vector>
 
 namespace Steinberg {
+class VST3DynLibrary;
+
 namespace Vst {
-
-//------------------------------------------------------------------------
-typedef struct MIDIMessageInfoStruct
-{
-	UInt8 status;
-	UInt8 channel;
-	UInt8 data1;
-	UInt8 data2;
-	UInt32 startFrame;
-} MIDIMessageInfoStruct;
-
-//------------------------------------------------------------------------
-class MIDIOutputCallbackHelper
-{
-public:
-	MIDIOutputCallbackHelper ()
-	{
-		mMIDIMessageList.reserve (16);
-		mMIDICallbackStruct.midiOutputCallback = NULL;
-	}
-	virtual ~MIDIOutputCallbackHelper () {};
-
-	void SetCallbackInfo (AUMIDIOutputCallback callback, void* userData)
-	{
-		mMIDICallbackStruct.midiOutputCallback = callback;
-		mMIDICallbackStruct.userData = userData;
-	}
-
-	void AddEvent (UInt8 status, UInt8 channel, UInt8 data1, UInt8 data2, UInt32 inStartFrame)
-	{
-		MIDIMessageInfoStruct info = {status, channel, data1, data2, inStartFrame};
-		mMIDIMessageList.push_back (info);
-	}
-
-	void FireAtTimeStamp (const AudioTimeStamp& inTimeStamp)
-	{
-		if (!mMIDIMessageList.empty () && mMIDICallbackStruct.midiOutputCallback != 0)
-		{
-			// synthesize the packet list and call the MIDIOutputCallback
-			// iterate through the vector and get each item
-			std::vector<MIDIMessageInfoStruct>::iterator myIterator;
-			MIDIPacketList* pktlist = PacketList ();
-
-			for (myIterator = mMIDIMessageList.begin (); myIterator != mMIDIMessageList.end ();
-			     myIterator++)
-			{
-				MIDIMessageInfoStruct item = *myIterator;
-
-				MIDIPacket* pkt = MIDIPacketListInit (pktlist);
-				bool tooBig = false;
-				Byte data[3] = {item.status, item.data1, item.data2};
-				if ((pkt = MIDIPacketListAdd (pktlist, sizeof (mBuffersAllocated), pkt,
-				                              item.startFrame, 4, const_cast<Byte*> (data))) ==
-				    NULL)
-					tooBig = true;
-
-				if (tooBig)
-				{ // send what we have and then clear the buffer and send again
-					// issue the callback with what we got
-					OSStatus result = mMIDICallbackStruct.midiOutputCallback (
-					    mMIDICallbackStruct.userData, &inTimeStamp, 0, pktlist);
-					if (result != noErr)
-						printf ("error calling output callback: %d", (int)result);
-
-					// clear stuff we've already processed, and fire again
-					mMIDIMessageList.erase (mMIDIMessageList.begin (), myIterator);
-					this->FireAtTimeStamp (inTimeStamp);
-					return;
-				}
-			}
-			// fire callback
-			OSStatus result = mMIDICallbackStruct.midiOutputCallback (mMIDICallbackStruct.userData,
-			                                                          &inTimeStamp, 0, pktlist);
-			if (result != noErr)
-				printf ("error calling output callback: %d", (int)result);
-
-			mMIDIMessageList.clear ();
-		}
-	}
-
-protected:
-	typedef std::vector<MIDIMessageInfoStruct> MIDIMessageList;
-
-private:
-	MIDIPacketList* PacketList () { return (MIDIPacketList*)mBuffersAllocated; }
-
-	Byte mBuffersAllocated[1024];
-	AUMIDIOutputCallbackStruct mMIDICallbackStruct;
-	MIDIMessageList mMIDIMessageList;
-};
 
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------
 class AUWrapper : public AUWRAPPER_BASE_CLASS, public IComponentHandler, public ITimerCallback
 {
 public:
+#ifdef SMTG_AUWRAPPER_USES_AUSDK
+	using AUElement = ausdk::AUElement;
+#else
+	using AudioStreamBasicDescription = CAStreamBasicDescription;
+#endif
+
 	AUWrapper (ComponentInstanceRecord* ci);
 	~AUWrapper ();
 
 	//---ComponentBase---------------------
-#if !CA_USE_AUDIO_PLUGIN_ONLY
+#if !CA_USE_AUDIO_PLUGIN_ONLY && !defined(SMTG_AUWRAPPER_USES_AUSDK)
 	ComponentResult	Version () SMTG_OVERRIDE;
 #endif
 	void PostConstructor () SMTG_OVERRIDE;
@@ -172,10 +105,14 @@ public:
 	//---AUBase-----------------------------
 	void Cleanup () SMTG_OVERRIDE;
 	ComponentResult Initialize () SMTG_OVERRIDE;
+#ifdef SMTG_AUWRAPPER_USES_AUSDK
+	std::unique_ptr<AUElement> CreateElement (AudioUnitScope scope, AudioUnitElement element) SMTG_OVERRIDE;
+#else
 	AUElement* CreateElement (AudioUnitScope scope, AudioUnitElement element) SMTG_OVERRIDE;
+#endif
 	UInt32 SupportedNumChannels (const AUChannelInfo** outInfo) SMTG_OVERRIDE;
 	bool StreamFormatWritable (AudioUnitScope scope, AudioUnitElement element) SMTG_OVERRIDE;
-	ComponentResult ChangeStreamFormat (AudioUnitScope inScope, AudioUnitElement inElement, const CAStreamBasicDescription& inPrevFormat, const CAStreamBasicDescription& inNewFormat) SMTG_OVERRIDE;
+	ComponentResult ChangeStreamFormat (AudioUnitScope inScope, AudioUnitElement inElement, const AudioStreamBasicDescription& inPrevFormat, const AudioStreamBasicDescription& inNewFormat) SMTG_OVERRIDE;
 	ComponentResult SetConnection (const AudioUnitConnection& inConnection) SMTG_OVERRIDE;
 	ComponentResult GetParameterInfo (AudioUnitScope inScope, AudioUnitParameterID inParameterID, AudioUnitParameterInfo& outParameterInfo) SMTG_OVERRIDE;
 	ComponentResult SetParameter (AudioUnitParameterID inID, AudioUnitScope inScope, AudioUnitElement inElement, AudioUnitParameterValue inValue, UInt32 inBufferOffsetInFrames) SMTG_OVERRIDE;
@@ -186,12 +123,16 @@ public:
 	ComponentResult Render (AudioUnitRenderActionFlags &ioActionFlags, const AudioTimeStamp &inTimeStamp, UInt32 inNumberFrames) SMTG_OVERRIDE;
 	void processOutputEvents (const AudioTimeStamp &inTimeStamp);
 
-#if !CA_USE_AUDIO_PLUGIN_ONLY
+#if !CA_USE_AUDIO_PLUGIN_ONLY && !defined(SMTG_AUWRAPPER_USES_AUSDK)
 	int GetNumCustomUIComponents () SMTG_OVERRIDE;
 	void GetUIComponentDescs (ComponentDescription* inDescArray) SMTG_OVERRIDE;
 #endif
 
-	ComponentResult GetPropertyInfo (AudioUnitPropertyID inID, AudioUnitScope inScope, AudioUnitElement inElement, UInt32 &outDataSize, Boolean &outWritable) SMTG_OVERRIDE;
+#ifdef SMTG_AUWRAPPER_USES_AUSDK
+	OSStatus GetPropertyInfo (AudioUnitPropertyID inID, AudioUnitScope inScope, AudioUnitElement inElement, UInt32 &outDataSize, bool &outWritable) SMTG_OVERRIDE;
+#else
+	OSStatus GetPropertyInfo (AudioUnitPropertyID inID, AudioUnitScope inScope, AudioUnitElement inElement, UInt32 &outDataSize, Boolean &outWritable) SMTG_OVERRIDE;
+#endif
 	ComponentResult GetProperty (AudioUnitPropertyID inID, AudioUnitScope inScope, AudioUnitElement inElement, void* outData) SMTG_OVERRIDE;
 	ComponentResult SetProperty (AudioUnitPropertyID inID, AudioUnitScope inScope, AudioUnitElement inElement, const void* inData, UInt32 inDataSize) SMTG_OVERRIDE;
 	bool CanScheduleParameters() const SMTG_OVERRIDE;
@@ -203,16 +144,24 @@ public:
 	OSStatus GetPresets (CFArrayRef* outData) const SMTG_OVERRIDE;
 	OSStatus NewFactoryPresetSet (const AUPreset& inNewFactoryPreset) SMTG_OVERRIDE;
 
+#if !CA_USE_AUDIO_PLUGIN_ONLY
 	//---MusicDeviceBase-------------------------
+	OSStatus HandleNoteOn (UInt8 inChannel, UInt8 inNoteNumber, UInt8 inVelocity, UInt32 inStartFrame) SMTG_OVERRIDE;
+	OSStatus HandleNoteOff (UInt8 inChannel, UInt8 inNoteNumber, UInt8 inVelocity, UInt32 inStartFrame) SMTG_OVERRIDE;
 	ComponentResult StartNote (MusicDeviceInstrumentID inInstrument, MusicDeviceGroupID inGroupID, NoteInstanceID* outNoteInstanceID, UInt32 inOffsetSampleFrame, const MusicDeviceNoteParams &inParams) SMTG_OVERRIDE;
 	ComponentResult StopNote (MusicDeviceGroupID inGroupID, NoteInstanceID inNoteInstanceID, UInt32 inOffsetSampleFrame) SMTG_OVERRIDE;
-#if !CA_USE_AUDIO_PLUGIN_ONLY
 	OSStatus GetInstrumentCount (UInt32 &outInstCount) const SMTG_OVERRIDE;
-#endif
+
 	//---AUMIDIBase------------------------------
-#if !CA_USE_AUDIO_PLUGIN_ONLY
 	OSStatus HandleNonNoteEvent (UInt8 status, UInt8 channel, UInt8	data1, UInt8 data2, UInt32 inStartFrame) SMTG_OVERRIDE;
 #endif
+
+#if AUSDK_MIDI2_AVAILABLE
+	OSStatus MIDIEventList (UInt32 inOffsetSampleFrame,
+	                        const struct MIDIEventList* eventList) override;
+	bool handleMIDIEventPacket (UInt32 inOffsetSampleFrame, const MIDIEventPacket* packet);
+#endif
+
 	//---custom----------------------------------
 	void setControllerParameter (ParamID pid, ParamValue value);
 
@@ -223,7 +172,7 @@ public:
 	ComponentResult restoreState (CFPropertyListRef inData, bool fromProject);
 
 	//------------------------------------------------------------------------
-#if !CA_USE_AUDIO_PLUGIN_ONLY
+#if !CA_USE_AUDIO_PLUGIN_ONLY && !defined(SMTG_AUWRAPPER_USES_AUSDK)
 	static ComponentResult ComponentEntryDispatch (ComponentParameters* params, AUWrapper* This);
 #endif
 	//------------------------------------------------------------------------
@@ -247,6 +196,7 @@ protected:
 	void syncParameterValues ();
 	void cacheParameterValues ();
 	void clearParameterValueCache ();
+	void updateProgramChangesCache ();
 
 	virtual IPluginFactory* getFactory ();
 	void loadVST3Module ();
@@ -256,7 +206,6 @@ protected:
 
 	IAudioProcessor* audioProcessor;
 	IEditController* editController;
-	IMidiMapping* midiMapping;
 
 	Timer* timer;
 
@@ -268,7 +217,7 @@ protected:
 	ProcessContext processContext;
 	EventList eventList;
 
-	typedef std::map<uint32, AudioUnitParameterInfo> CachedParameterInfoMap;
+	typedef std::map<ParamID, AudioUnitParameterInfo> CachedParameterInfoMap;
 	typedef std::map<UnitID, UnitInfo> UnitInfoMap;
 	typedef std::vector<String> ClumpGroupVector;
 
@@ -285,21 +234,60 @@ protected:
 	int32 numPresets;
 	ParamID factoryProgramChangedID;
 
-	bool isInstrument;
-	bool isBypassed;
-
 	AUParameterListenerRef paramListenerRef;
-	static const int32 kMaxProgramChangeParameters = 16;
-	ParamID programChangeParameters[kMaxProgramChangeParameters]; // for each midi channel
+	std::vector<ParameterInfo> programParameters;
+
+	static constexpr int32 kMaxProgramChangeParameters = 16;
+	struct ProgramChangeInfo
+	{
+		ParamID pid {kNoParamId};
+		int32 numPrograms {0};
+	};
+	using ProgramChangeInfoList = std::array<ProgramChangeInfo, kMaxProgramChangeParameters>; 
+	using ProgramChangeInfoTransfer = RTTransferT<ProgramChangeInfoList>;
+	ProgramChangeInfoList programChangeInfos;
+	ProgramChangeInfoTransfer programChangeInfoTransfer;
+
+	// midi mapping
+	struct MidiMapping
+	{
+		using CC2ParamMap = std::unordered_map<CtrlNumber, ParamID>;
+		using ChannelList = std::vector<CC2ParamMap>;
+		using BusList = std::vector<ChannelList>;
+		
+		BusList busList;
+		bool empty () const { return busList.empty () || busList[0].empty (); }
+	};
+	using MidiMappingTransfer = RTTransferT<MidiMapping>;
+
+	MidiMappingTransfer midiMappingTransfer;
+	MidiMapping midiMappingCache;
+
+	struct MidiLearnEvent
+	{
+		int32 busIndex;
+		int16 channel;
+		CtrlNumber midiCC;
+	};
+	using MidiLearnRingBuffer = OneReaderOneWriter::RingBuffer<MidiLearnEvent>;
+	MidiLearnRingBuffer midiLearnRingBuffer;
+	IPtr<IMidiLearn> midiLearn;
+
+	struct MIDIOutputCallbackHelper;
 
 	int32 midiOutCount; // currently only 0 or 1 supported
-	MIDIOutputCallbackHelper mCallbackHelper;
+	std::unique_ptr<MIDIOutputCallbackHelper> mCallbackHelper;
 	EventList outputEvents;
 
+	bool isInstrument;
+	bool isBypassed;
 	bool isOfflineRender;
 
 private:
 	void buildUnitInfos (IUnitInfo* unitInfoController, UnitInfoMap& units) const;
+	void updateMidiMappingCache ();
+
+	IPtr<VST3DynLibrary> dynLib;
 };
 
 //------------------------------------------------------------------------

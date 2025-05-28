@@ -262,6 +262,7 @@ function(smtg_target_make_plugin_package target pkg_name extension)
             SMTG_PLUGIN_BINARY_DIR          ${SMTG_PLUGIN_BINARY_LOCATION}/${PLUGIN_EXTENSION_UPPER}
             SMTG_PLUGIN_EXTENSION           ${extension}
             SMTG_PLUGIN_PACKAGE_NAME        ${pkg_name}.${pkg_extension}
+            OUTPUT_NAME                     ${pkg_name}
             SMTG_PLUGIN_PACKAGE_CONTENTS    Contents
             SMTG_PLUGIN_PACKAGE_RESOURCES   Contents/Resources
             SMTG_PLUGIN_PACKAGE_SNAPSHOTS   Snapshots
@@ -386,6 +387,12 @@ function(smtg_target_make_plugin_package target pkg_name extension)
             if(EXISTS ${SMTG_PACKAGE_ICON_PATH})
                 smtg_target_add_folder_icon(${target} ${SMTG_PACKAGE_ICON_PATH})
             endif()
+        else()
+            # Do not create a "MyPlugin.vst3/Contents/Resources" folder when SMTG_CREATE_BUNDLE_FOR_WINDOWS is NOT set!
+            set_target_properties(${target}
+                PROPERTIES 
+                    SMTG_DISABLE_CREATE_RESOURCE_FOLDER	1
+            )
         endif(SMTG_CREATE_BUNDLE_FOR_WINDOWS)
         # Disable warning LNK4221: "This object file does not define any previously undefined public symbols...".
         # Enable "Generate Debug Information" in release config by setting "/Zi" and "/DEBUG" flags.
@@ -453,9 +460,12 @@ function(smtg_target_add_plugin_resource target input_file)
     if(SMTG_LINUX OR (SMTG_WIN AND SMTG_CREATE_BUNDLE_FOR_WINDOWS))
         get_target_property(PLUGIN_PACKAGE_PATH ${target} SMTG_PLUGIN_PACKAGE_PATH)
         get_target_property(PLUGIN_PACKAGE_RESOURCES ${target} SMTG_PLUGIN_PACKAGE_RESOURCES)
+
         set(destination_folder "${PLUGIN_PACKAGE_PATH}/${PLUGIN_PACKAGE_RESOURCES}")
+        set(destination_sourcegroup "${PLUGIN_PACKAGE_RESOURCES}")
         if(ARGC GREATER 2 AND ARGV2)
             set(destination_folder "${destination_folder}/${ARGV2}")
+            set(destination_sourcegroup "${destination_sourcegroup}/${ARGV2}")
         endif()
 
         # Make the incoming path absolute.
@@ -467,7 +477,8 @@ function(smtg_target_add_plugin_resource target input_file)
         # Create absolute output file path
         set(absolute_output_file_path "${destination_folder}/${file_name_with_extension}")
 
-        # Add the file as a source to the target
+        # Add the file as a source to the target inside their corresponding folders
+        source_group("${destination_sourcegroup}" FILES ${input_file})
         target_sources(${target}
             PRIVATE
                 ${input_file}
@@ -483,12 +494,12 @@ function(smtg_target_add_plugin_resource target input_file)
 
         # Create a custom build tool for the specific file
         add_custom_command(
-            OUTPUT  ${absolute_output_file_path}
-            MAIN_DEPENDENCY ${absolute_input_file_path}
+            OUTPUT  "${absolute_output_file_path}"
+            MAIN_DEPENDENCY "${absolute_input_file_path}"
             COMMAND ${CMAKE_COMMAND} 
                 -E copy_if_different
-                    ${absolute_input_file_path}
-                    ${absolute_output_file_path}
+                    "${absolute_input_file_path}"
+                    "${absolute_output_file_path}"
             COMMAND ${CMAKE_COMMAND} 
                 -E echo 
                     "[SMTG] Copied ${absolute_input_file_path} to ${absolute_output_file_path}"

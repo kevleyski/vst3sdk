@@ -1,12 +1,12 @@
 
-cmake_minimum_required(VERSION 3.15.0)
+cmake_minimum_required(VERSION 3.25.0)
 
 project(smtg-vst3-programchange
     VERSION ${vstsdk_VERSION}.0
     DESCRIPTION "Steinberg VST 3 Programchange example"
 )
 
-smtg_add_vst3plugin(programchange 
+smtg_add_vst3plugin(program-change 
     source/plug.cpp
     source/plug.h
     source/plugcids.h
@@ -17,4 +17,4 @@ smtg_add_vst3plugin(programchange
     source/version.h
 )
 
-smtg_target_setup_as_vst3_example(programchange)
+smtg_target_setup_as_vst3_example(program-change)

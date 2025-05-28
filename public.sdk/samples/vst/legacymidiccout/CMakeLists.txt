@@ -1,12 +1,12 @@
 
-cmake_minimum_required(VERSION 3.15.0)
+cmake_minimum_required(VERSION 3.25.0)
 
 project(smtg-vst3-legacymidiccout
     VERSION ${vstsdk_VERSION}.0
     DESCRIPTION "Steinberg VST 3 Legacy MIDI CC out example"
 )
 
-smtg_add_vst3plugin(legacymidiccout     
+smtg_add_vst3plugin(legacy-midicc-out     
     source/plug.cpp
     source/plug.h
     source/plugcids.h
@@ -17,4 +17,4 @@ smtg_add_vst3plugin(legacymidiccout
     source/version.h
 )
 
-smtg_target_setup_as_vst3_example(legacymidiccout)
+smtg_target_setup_as_vst3_example(legacy-midicc-out)

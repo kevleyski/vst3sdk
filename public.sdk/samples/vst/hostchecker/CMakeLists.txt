@@ -3,7 +3,7 @@ if(NOT SMTG_ENABLE_VSTGUI_SUPPORT)
     return()
 endif()
 
-cmake_minimum_required(VERSION 3.15.0)
+cmake_minimum_required(VERSION 3.25.0)
 
 project(smtg-vst3-hostchecker
     VERSION ${vstsdk_VERSION}.0
@@ -12,7 +12,7 @@ project(smtg-vst3-hostchecker
 
 set(COMPATIBILITY_FILE resource/vst_compatibility.json)
 
-smtg_add_vst3plugin(hostchecker     
+smtg_add_vst3plugin(host-checker     
     MODULEINFO_COMPATIBILITY
         ${COMPATIBILITY_FILE}
     resource/hostchecker.uidesc
@@ -42,16 +42,16 @@ smtg_add_vst3plugin(hostchecker
     source/version.h
 )
 
-target_link_libraries(hostchecker
+target_link_libraries(host-checker
     PRIVATE
         vstgui_support
 )
 
-smtg_target_add_plugin_resources(hostchecker
+smtg_target_add_plugin_resources(host-checker
     RESOURCES
         resource/hostchecker.uidesc
         resource/bypass.png
         resource/knob.png
 )
 
-smtg_target_setup_as_vst3_example(hostchecker)
+smtg_target_setup_as_vst3_example(host-checker)

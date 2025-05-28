@@ -81,16 +81,16 @@ AAX_Result AAXWrapper_GUI::GetViewSize (AAX_Point* oEffectViewSize) const
 	int32 width, height;
 	if (params->getWrapper ()->getEditorSize (width, height))
 	{
-		oEffectViewSize->horz = width;
-		oEffectViewSize->vert = height;
+		oEffectViewSize->horz = static_cast<float> (width);
+		oEffectViewSize->vert = static_cast<float> (height);
 	}
 	return AAX_SUCCESS;
 }
 
 //------------------------------------------------------------------------
 AAX_Result AAXWrapper_GUI::SetControlHighlightInfo (AAX_CParamID iParameterID,
-                                                    AAX_CBoolean iIsHighlighted,
-                                                    AAX_EHighlightColor iColor)
+                                                    AAX_CBoolean /*iIsHighlighted*/,
+                                                    AAX_EHighlightColor /*iColor*/)
 {	
 	AAXWrapper* wrapper =
 		static_cast<AAXWrapper_Parameters*> (GetEffectParameters ())->getWrapper ();

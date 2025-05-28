@@ -42,6 +42,7 @@
 #include "public.sdk/source/main/pluginfactory.h"
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
 
+#include "pluginterfaces/base/funknownimpl.h"
 #include "pluginterfaces/base/ibstream.h"
 #include "pluginterfaces/base/ustring.h" // for UString128
 #include "pluginterfaces/vst/ivstevents.h"
@@ -354,10 +355,10 @@ tresult PLUGIN_API AGainSimple::process (ProcessData& data)
 			{
 				if (data.symbolicSampleSize == kSample32)
 					fVuPPM = processAudio<Sample32> ((Sample32**)in, (Sample32**)out, numChannels,
-						data.numSamples, gain);
+					                                 data.numSamples, gain);
 				else
-					fVuPPM = processAudio<Sample64> ((Sample64**)in, (Sample64**)out, numChannels,
-						data.numSamples, gain);
+					fVuPPM = static_cast<float> (processAudio<Sample64> (
+					    (Sample64**)in, (Sample64**)out, numChannels, data.numSamples, gain));
 			}
 		}
 	}
@@ -408,11 +409,9 @@ tresult PLUGIN_API AGainSimple::setState (IBStream* state)
 	setParamNormalized (kBypassId, bBypass);
 
 	// Example of using the IStreamAttributes interface
-	FUnknownPtr<IStreamAttributes> stream (state);
-	if (stream)
+	if (auto stream = U::cast<IStreamAttributes> (state))
 	{
-		IAttributeList* list = stream->getAttributes ();
-		if (list)
+		if (IAttributeList* list = stream->getAttributes ())
 		{
 			// get the current type (project/Default..) of this state
 			String128 string = {0};

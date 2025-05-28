@@ -61,12 +61,13 @@ namespace Vst {
  *
  *	@return 			allocated memory
  */
-void* aligned_alloc (size_t numBytes, uint32_t alignment)
+inline void* aligned_alloc (size_t numBytes, uint32_t alignment)
 {
 	if (alignment == 0)
 		return malloc (numBytes);
 	void* data {nullptr};
-#if SMTG_OS_MACOS && MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_15
+#if SMTG_OS_MACOS && defined(MAC_OS_X_VERSION_MIN_REQUIRED) && \
+    MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_15
 	posix_memalign (&data, alignment, numBytes);
 #elif defined(_MSC_VER)
 	data = _aligned_malloc (numBytes, alignment);
@@ -77,7 +78,7 @@ void* aligned_alloc (size_t numBytes, uint32_t alignment)
 }
 
 //------------------------------------------------------------------------
-void aligned_free (void* addr, uint32_t alignment)
+inline void aligned_free (void* addr, uint32_t alignment)
 {
 	if (alignment == 0)
 		std::free (addr);
